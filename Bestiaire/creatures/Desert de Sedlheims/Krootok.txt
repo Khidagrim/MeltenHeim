@@ -1,0 +1,18 @@
+Nom : Krootok
+Vie : 65/65
+Force : 25
+Dext : 20 
+init : 20
+
+Armure_phy : 0
+Armure_mag : 0
+
+Capacités :
+Passifs:
+-vitesse + 4
+
+Description :
+Coureurs charognards. Ils reniflent le sang à plusieurs kilométres et attaquent et broient tout être sur leur route.
+
+Age moyen : ??? ans
+Taille : 65m

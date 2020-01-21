@@ -1,0 +1,13 @@
+Les niveaux du compteur peur : 
+
+-1 : les joueurs ne peuvent plus échapper à mittgenheim (si et seulement si mittgenheim est reveillé)
+-5 : +1 aux jets de dés 20
+-10 : dégats reçus : +2
+-15 : Angoisse : le repos régénére 50% de moins
+-20 : +1 aux jets de dés 20
+-25 : Passé ce pallier : 1/2 d'avoir l'alteration hallucinations auditives
+-30 : bloquer inflige faiblesse jusqu'au prochain tour (dégats - 25%)
+-35 : +1 aux jets de dés 20
+-40 : la contre attaque n'est plus possible
+-45 : bloquer et esquiver est trés dur
+-50 : si jet de dé impaire : 1/2 d'attaquer ses alliés ou tenter de s'échapper

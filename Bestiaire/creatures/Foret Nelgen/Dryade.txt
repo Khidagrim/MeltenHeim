@@ -1,0 +1,18 @@
+Nom : Dryade
+Vie : 45/45
+Force : 8
+Dext : 15 
+init : 20
+
+Armure_phy : 0
+Armure_mag : 4
+
+Capacités :
+Actifs
+-Malediction ???
+
+Description :
+Divinité mineure liés aux arbres. Elles y résident et sont de nature plutot timides. Attention, les arbres habités par les dryades sont toujours en fleurs et sont des autels fait aux dieux. Leurs profanations reléve de la folie car une terrible malédiction s'abatera sur le fautif.
+ 
+Age moyen : 300 ans
+Taille : 1m 80

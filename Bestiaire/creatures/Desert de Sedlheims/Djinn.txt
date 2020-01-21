@@ -1,0 +1,29 @@
+Nom : Djinn
+Vie : 140/140
+Force : 30
+Dext : 20 
+init : 50
+magie : 50
+mana : 40/40
+
+Armure_phy : 4	
+Armure_mag : 8
+
+Capacités :
+Passifs:
+-vitesse -2
+-Visage du fou: folie +2 à l'apparition
+-Coups délétéres (les blessures ne peuvent être soignées)
+
+Combat :
+Actifs
+-Souffle de sable : (-15pm)inflige fatigue + dégats magiques sur une large zone
+
+Hors Combat:
+Peut accepter sur 1 dé 100 d'exaucer 1 voeux (si <25 réussite si >75 attaque le groupe). Si le voeux est exxaucé : +2 folie.
+
+Description :
+Les djinns sont de mystérieuses créatures. Elles apparaissent souvent la nuit et exaucent les voeux des personnes endormies en échange d'une partie de leur ame.
+
+Age moyen : ??? ans
+Taille : 2m

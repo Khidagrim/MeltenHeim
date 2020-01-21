@@ -1,0 +1,18 @@
+Nom : Arion
+Vie : 30/30
+Force : 10
+Dext : 35
+init : 28
+symbiose : 8/8
+
+Armure_phy : 1	
+Armure_mag : 5
+
+Capacités :
+Bénédiction : On raconte que venir en aide à un Arion sans attentes particuliéres permet au sauveur de reçevoir une bénédiction
+
+Description :
+Les Arions sont des créatures ayant longtemps soufert de la chasse. Il s'avére qu'ils ont fuit les regions centrales pour rejoindre les forets folg, désormais leur sanctuaire.
+
+Age moyen : 60 ans
+Taille : 2m

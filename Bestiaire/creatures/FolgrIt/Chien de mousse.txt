@@ -1,0 +1,22 @@
+Nom : Chien de mousse
+Vie : 35/35
+Force : 10
+Dext : 25
+init : 18
+Symbiose : 5/5
+
+Armure_phy : 0
+Armure_mag : 0
+
+Capacités :
+Malus : 
+Malus feu : deg+35%
+
+Actifs:
+Phito-resurection : Le chien de mousse revient à la vie aprés être mort. Cette capacité ne pourra plus jamais être utilisée.
+
+Description :
+Créature fonctionnant en meute. Chasse des Bushtaka ou petits animaux ou mange des plantes.
+
+Age moyen : 12 ans
+Taille : 90cm

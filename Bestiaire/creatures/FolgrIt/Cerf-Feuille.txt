@@ -1,0 +1,16 @@
+Nom : Cerf-Feuille
+Vie : 50/50
+Force : 8
+Dext : 20
+init : 25
+
+Armure_phy : 0
+Armure_mag : 2
+
+Capacités :
+
+Description :
+Les liannes provenant de son dos permettent la construction de cordes résistantes
+
+Age moyen : 12 ans
+Taille : 1.80m

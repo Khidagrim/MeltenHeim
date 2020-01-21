@@ -1,0 +1,24 @@
+Nom : Nah-Oul-Raar au visage creux
+Vie : 120/120
+Force : 35
+Dext : 10
+init : 40
+symbiose : 25/25
+
+Armure_phy : 15
+Armure_mag : 15
+
+Capacités :
+Malus : 
+Malus feu : deg+10%
+Passifs:
+-Liaison Maléfique: Choisis un joueur au hasard au debut du combat. Ce joueur reçevra x dégats ou x est le nombre hp perdu du Nah-Oul-Raar le tour précédant
+Actifs : 
+-Liaison d'outre tombe: (-5 symbiose/tours) Permet de lier son ame à la nature morte environnante, peut ranimer des créatures de type nature au alentours.
+-Cage (-4 sym) : Une cage d'os se forme autour d'un joueur (voir groupe de joueur), la cage posséde 60PV. Chaque degat infligé à la cage enléve le même nombre, réparti entre le/les joueurs dans la cage.
+
+Description :
+Nah-Oul-Raar au visage creux est une divinité locale lié aux Kal-Atrol-It.
+
+Age moyen : ??? ans
+Taille : 10m

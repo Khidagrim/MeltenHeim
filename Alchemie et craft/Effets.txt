@@ -1,0 +1,26 @@
+Explosif : 
+Touche les entités autour du point d'impact (3m)
+
+Infinie :
+Remplace la durée de la potion par "infinie", si la phrase n'est pas française, se référer au MJ
+
+Renforcement x : 
+Améliore la potion de +x niveaux
+
+Bonne humeur
+La journée du personnage sera plus dure à pourrir
+
+Brasier
+Attention : une flamme trop proche peut tout faire bruler
+
+Bon gout
+Donne un gout sucré adorable aux potions
+
+Chronométré
+Ajoute une durée de qq minutes à une préparation
+
+Propagation
+Permet de propager par l'eternument frénétique le contenu de la potion aux entités trés proches (1m)
+
+Enervement
+L'entité voit son aggressivité exacerbée

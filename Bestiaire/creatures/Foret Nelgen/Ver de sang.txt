@@ -1,0 +1,14 @@
+Nom : Larve de peur
+Vie : 80/80
+Force : 18
+Dext : 10
+init : 20
+
+Armure_phy : 4
+Armure_mag : 4
+
+Description :
+Les vers de sang sont des créatures ne nourissant principalement de sang. Habitants du sols ils sortent rarement mais on peut les apperçevoir sur les champs de batailles quelques jour aprés les massacres. Ils ne sont pas spécialement agréssifs.
+ 
+Age moyen : 5 ans
+Taille : 15m de long

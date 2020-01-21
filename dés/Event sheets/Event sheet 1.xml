@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="Variable1" sid="441275566932105" static="0" type="number">0</variable>
+        <event-block sid="868821116907310">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="380832805317024" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">TEXTE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="916053333094731" type="System">
+                    <param id="0" name="Variable">Variable1</param>
+                    <param id="1" name="Value">round(random(100))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="614149202788456">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="931569118268465" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="746610550774958" type="TEXTE">
+                    <param id="0" name="Text">Variable1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

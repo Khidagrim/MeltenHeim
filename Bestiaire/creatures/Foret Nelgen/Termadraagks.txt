@@ -1,0 +1,20 @@
+Nom : Termadraagks
+Vie : 65/65
+Force : 25
+Dext : 25 
+init : 25
+magie : 20
+mana : 10/10 
+
+Armure_phy : 6
+Armure_mag : 2
+
+Capacités :
+Passifs :
+-Rage intense : prendre un coup augmente la force de 5. 
+
+Description :
+Les Termadraagks sont des Galadraagks plus forts. Techniquement, c'est la magie du sang qui à transformé des galadraagks normaux en Termadraagks. Ainsi, ils deviennent plus robustes et agressifs. Ils ne chassent plus en meute car ils deviennent incapable de vivre entre eux.
+
+Age moyen : ???
+Taille : 1m80

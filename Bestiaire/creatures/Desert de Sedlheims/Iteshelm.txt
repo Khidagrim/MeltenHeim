@@ -1,0 +1,24 @@
+Nom : Iteshelm
+Vie : 40/40
+Force : 8
+Dext : 20 
+init : 50
+magie : 70
+mana : 100/100
+
+Armure_phy : 12
+Armure_mag : 15
+
+Capacités :
+Passifs:
+-vitesse +1
+-traqueur : +2 au dé de perception odorante.
+
+Actifs
+-Coup de corne : inglige Force*1.5 dégats.
+
+Description :
+Les iteshelm sont des chasseurs du déserts. Ils opérent en bande et se cachent dans les grottes le jour pour attaquer la nuit. Il mangent de petits animaux ou les aventuriers qui ne sont pas suffisament sur leur garde. La corne sur leur front est utilisée comme cor de chasse.
+
+Age moyen : 5 ans
+Taille : 2m de long

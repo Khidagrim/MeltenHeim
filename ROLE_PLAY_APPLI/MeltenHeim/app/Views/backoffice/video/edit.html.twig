@@ -1,0 +1,263 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}BackOffice | les Videos{% endblock %}
+{% block specific_css %}
+  <link href="{{url('/assets/css/style.css')}}" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block content %}
+
+<h1 class="text-light">Modifier la Video : <b>{{video.titre}}</b></h1>
+<h6 class="text-light">Indiquer les données à modifier de cette Video.</h6>
+<form action="{{ url( '/backoffice/video/update/' ~ video.id )}}" method="post" enctype="multipart/form-data">
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Titre : </label>
+    <div class="col-sm-2">
+      <input name="titre" type="text" class="form-control" value="{{video.titre}}">
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Choisir une image : </label>
+    <div class="custom-file mb-3 col-sm-6">
+      <input type="file" name="image" class="custom-file-input" value="{{video.image}}">
+      <label for="image" class="custom-file-label col-6 removeText">{{video.image}}</label>
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Nom de la Video ( + .mp4, .avi, ect..): </label>
+    <div class="col-sm-4">
+      <input name="lienVideo" type="text" class="form-control" value="{{video.lienVideo}}">
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Resumé de la video :</label>
+    <div class="col-sm-4">
+      <textarea name="resume" type="text" class="form-control">{{video.resume}}</textarea>
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Utilisation générale :</label>
+    <div class="col-sm-4">
+      <textarea name="usesGen" type="text" class="form-control">{{video.usesGen}}</textarea>
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Lien Word : </label>
+    <div class="col-sm-4">
+      <input name="lienWord" type="text" class="form-control" value="{{video.lienWord}}">
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Lien Internet : </label>
+    <div class="col-sm-4">
+      <input name="lienInternet" type="text" class="form-control" value="{{video.lienInternet}}">
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Tags Existants : </label>
+    <div class="col d-flex flex-wrap tagContainer">
+      {% for tag in tags %}
+        <input style="max-height:25px" data-id="{{tag.id}}" readonly class=" mr-1 mt-1 tagDiv badge badge-pill badge-secondary d-flex justify-content-center align-items-center tag" value="{{tag.nom}}">
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Autre Liens Words Existants : </label>
+    <div class="col d-flex flex-wrap wordContainer">
+      {% for word in words %}
+        <div class="col-3 d-flex"><input data-id="{{word.id}}" readonly class="form-control word" value="{{word.lienOtherWord}}"><p class="btn btn-danger">X</p></div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Autres Utilisations Existantes : </label>
+    <div class="col d-flex flex-wrap useContainer">
+      {% for aUse in uses %}
+        <div class="col-3 d-flex"><textarea data-id="{{aUse.id}}" cols="30" readonly class="use">{{aUse.Description}}</textarea><p class="btn btn-danger">X</p></div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="offset-3">
+      <button class="btn btn-secondary">Enregistrer la nouvelle vidéo</button>
+      <a href="{{ url( '/backoffice/video' )}}" class="btn btn-link">annuler</a>
+    </div>
+  </div>
+</form>
+
+<div class="container">
+  <h6 class="text-light">Ajouter des <b>Tags</b> à cette video :</h6>
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Ajouter Tags : </label>
+    <div class=" d-flex col-sm-9">
+      <select name="idTags" class="form-control" style="max-width:125px">
+        {% for aTag in allTags %}
+          <option value="{{aTag.id}}">{{aTag.nom}}</option>
+        {% endfor %}
+      </select>
+      <button id="addTag" class="btn btn-secondary">Ajouter le tag</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h6 class="text-light">Ajouter des <b>Words</b> à cette video :</h6>
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Ajouter Word : </label>
+    <div class=" d-flex col-sm-9">
+      <input type="text" class="form-control">
+      <button id="addWord" class="btn btn-secondary">Ajouter le word</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h6 class="text-light">Ajouter des <b>Utilisations</b> à cette video :</h6>
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Ajouter Utilisation : </label>
+    <div class=" d-flex col-sm-9">
+      <textarea cols="30" rows="10"></textarea>
+      <button id="addUse" class="btn btn-secondary" style="max-height:40px">Ajouter l'utilisation</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block specific_js %}
+<script>
+
+$(document).ready(function(){
+
+  $("input[type=file]").change(function() {
+    filename = this.files[0].name
+    $("label[for=image]").text(filename);
+  });
+//------------------------------------------------------------------ || Add a Tag || -------------------------------------------------------------------//
+  $("#addTag").click(function(){
+    var tagId = $(this).parent("div").children('select').children('option:selected').attr('value');
+
+    $.post("{{ url( '/backoffice/video/addSingleTag/' ~ video.id)}}", {idTags: tagId}, function(data) {
+      var datas = data.split('||');
+      addTag(datas[0],datas[1]);
+
+      $(".tagContainer input").click(function(){
+        var theTag = $(this);
+        var tagId = $(this).attr('data-id');
+        $.post("{{ url( '/backoffice/video/removeSingleTag/' ~ video.id)}}", {idTag: tagId}, function() {
+          theTag.remove();
+        });
+      });
+    });
+  });
+
+  function addTag(id,name)
+  {
+    var text = "<input readonly style=\"max-height:25px\" class=\" mr-1 mt-1 tagDiv badge badge-pill badge-secondary d-flex justify-content-center align-items-center tag\" value=\""+name+"\" data-id=\""+id+"\" >";
+    $(".tagContainer").append(text)
+  }
+
+//------------------------------------------------------------------ || Add a Word || -------------------------------------------------------------------//
+  $("#addWord").click(function(){
+
+    var textWord = $(this).siblings('input').val();
+
+    $.post("{{ url( '/backoffice/video/addSingleWord/' ~ video.id)}}",{lienOtherWord: textWord} ,function(data) {
+      var datas = data.split('||');
+      addWord(datas[0],datas[1]);
+
+      $(".wordContainer p").click(function(){
+        var theWord = $(this).siblings('input');
+        var wordId = theWord.attr('data-id');
+        console.log(wordId)
+        $.post("{{ url( '/backoffice/video/removeSingleWord/' ~ video.id)}}", {idWord: wordId}, function() {
+          theWord.parent('div').remove();
+        });
+
+      });
+    });
+  });
+
+  function addWord(id,name)
+  {
+    var text = '<div class="col-3 d-flex"><input data-id="'+id+'" readonly class="form-control word" value="'+name+'"><p class="btn btn-danger">X</p><div>';
+    $(".wordContainer").append(text)
+  }
+
+  //------------------------------------------------------------------ || Add a Use || -------------------------------------------------------------------//
+
+  $("#addUse").click(function(){
+
+    var textUses = $(this).siblings('textarea').val();
+    console.log(textUses);
+
+    $.post("{{ url( '/backoffice/video/addSingleUse/' ~ video.id)}}", {Description: textUses}, function(data) {
+      var datas = data.split('||');
+      addUse(datas[0],datas[1]);
+      console.log(datas);
+
+      $(".useContainer p").click(function(){
+        var theUse = $(this).siblings('textarea');
+        var useId = theUse.attr('data-id');
+        console.log(useId);
+        $.post("{{ url( '/backoffice/video/removeSingleUse/' ~ video.id)}}", {idUse: useId}, function() {
+          theUse.parent('div').remove();
+        });
+
+      });
+    });
+  });
+
+  function addUse(id,name)
+  {
+     var text = "<div class=\"col-4 d-flex\"><textarea data-id=\""+id+"\" readonly cols=\"30\" class=\"use\">"+name+"</textarea><p class=\"btn btn-danger\">X</p></div>";
+    $(".useContainer").append(text)
+  }
+
+  //------------------------------------------------------------------ || Delete a Tag || -------------------------------------------------------------------//
+
+  $(".tagContainer input").click(function(){
+    var theTag = $(this);
+    var tagId = $(this).attr('data-id');
+    $.post("{{ url( '/backoffice/video/removeSingleTag/' ~ video.id)}}", {idTag: tagId}, function() {
+      theTag.remove();
+    });
+
+  });
+
+  //------------------------------------------------------------------ || Delete a Word || -------------------------------------------------------------------//
+
+  $(".wordContainer p").click(function(){
+    var theWord = $(this).siblings('input');
+    var wordId = theWord.attr('data-id');
+    console.log(wordId)
+    $.post("{{ url( '/backoffice/video/removeSingleWord/' ~ video.id)}}", {idWord: wordId}, function() {
+      theWord.parent('div').remove();
+    });
+
+  });
+
+  //------------------------------------------------------------------ || Delete a Use || -------------------------------------------------------------------//
+
+  $(".useContainer p").click(function(){
+    var theUse = $(this).siblings('textarea');
+    var useId = theUse.attr('data-id');
+    console.log(useId);
+    $.post("{{ url( '/backoffice/video/removeSingleUse/' ~ video.id)}}", {idUse: useId}, function() {
+      theUse.parent('div').remove();
+    });
+
+  });
+
+
+});
+
+  </script>
+{% endblock %}

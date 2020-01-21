@@ -1,0 +1,2 @@
+Intervient lorsque : 
+-Le joueur ne respecte pas sa fiche de personnage et effectue des actions à l'encontre du caractére de son personnage. Celui-ci recevra une plume rouge et sera controlé par le mj lors de certaines actions pendant x jours (malédiction : Origine X).

@@ -1,0 +1,4 @@
+
+
+
+lvl2 : -> annule les regles d'interdiction de recolte sur la fiche des ingredient d'alchemie

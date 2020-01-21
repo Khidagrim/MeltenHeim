@@ -1,0 +1,34 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}
+  Biome
+{% endblock %}
+
+{% block additional_css %}
+  <link rel="stylesheet" href="{{url('/assets/css/biome.css')}} ">
+{% endblock %}
+{% block h1 %}
+  Biome
+{% endblock %}
+
+{% block content %}
+<section>
+  <div id="menu">
+    <button id='accueil' data-page="index"><div>Biomes</div></button>
+  </div>
+
+  <section class="biomes__handler">
+    {% for biome in biomes %}
+    <div class="biome__handler--item" style="background-image:url('{{url('/assets/images/biome/' ~ biome.image)}}')">
+      <button data-page="biome/{{biome.id}}" class="biome__handler--button" data-color="{{biome.color}}">
+        <h6 class="biome__handler--title">{{biome.type}}</h6>
+      </button>
+    </div>
+    {% endfor %}
+  </section>
+</section>
+
+{% endblock %}
+
+{% block additional_js %}
+  <script  src="{{url('/assets/js/biome.js')}}" type="text/javascript" charset="utf-8"></script>
+{% endblock %}

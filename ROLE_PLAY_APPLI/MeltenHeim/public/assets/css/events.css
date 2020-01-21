@@ -1,0 +1,75 @@
+body
+{
+	background: url('../images/background_events.jpg') no-repeat;
+	background-size: cover; 
+}
+
+.biomes__handler
+{
+	position: absolute;
+	top:20%;
+	left:0%;
+	width:22vw;
+	height:80vh;
+	display:flex;
+	flex-direction: column;
+	padding:2%;
+	background-color: rgba(0,0,0,0);
+}
+
+.biome__handler--item
+{
+	width:100%;
+	height:10%;
+	background-color: rgba(50,0,0,0.4);
+	transform: skew(-25deg);
+	transition:0.3s;
+	margin-right: 1%; 
+	margin-bottom: 3%; 
+	opacity:1;
+}
+
+.events__handler
+{
+	position: absolute;
+	top:18%;
+	right:5%;
+	width:70vw;
+	height:65vh;
+	background-color: rgba(10,10,10,0.4);
+	display:flex;
+	padding:2%;
+	flex-direction:column;
+}
+
+.events__handler--title
+{
+	font-size:2.6rem;
+	text-align: center;
+}
+
+.events__handler--texts
+{
+	width:50%;
+	padding:3%;
+	height:100%;
+}
+
+.events__handler--image
+{
+	width:50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height:100%;
+}
+
+.events__handler>div
+{
+	display:flex;
+	height:100%;
+}
+
+.events__handler--description
+{
+	margin:5% 0; 
+}

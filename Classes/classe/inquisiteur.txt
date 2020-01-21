@@ -1,0 +1,18 @@
+INQUISITEUR
+
+2 stats : 
+-Foi : Stat ressemblant à la magie , se regen seulement par une activité religieuse (priére, benedictions,charité, ect...), ou par le port de vetements/stuff en rapport direct avec l'église (chapelet, croix orlane, ect)
+
+-Vaillance : Se regen par un effort mental reussit ( galvaniser ses alliés, faire preuve de foi, a partir de la reussite d'une action ou une epreuve relative à un geste bon ou lors d'un combat ).
+
+- N'as pas de plafond, permet d'activer des miracle (avec aussi de la foi).
+
+
+Compétences :
+- Vengeance : inflige sur la prochaine attaque un nombre de dégats equivalent à la quantité de dégats subi par les membres de la team par la créature. 
+- Litanie : Prononce des vers religieux pour galvaniser et up ses alliés : (1 tour canalisation) (/3 tours) -> montrait +5dext, +5magie/+5force
+- Purge : Diminue de 2 niveaux chaque altération touchant un joueur, le cout en mana varie selon si c'est le lanceur qui est ciblé ou un autre joueur (alteration ciblables : faiblesse, fatigue,torpeur et peste).
+-Silence forcé : passe son prochain tour mais en contrepartie annule le prochain sort lancé par un mage)(-2 fois)
+
+
+Miracle : Sanctuaires : - Creerait une zone de protection isolée qui supprimerait toute interation interieure-extérieure (pdt 5 tours). (3 points de vaillances, 5 points de foi)

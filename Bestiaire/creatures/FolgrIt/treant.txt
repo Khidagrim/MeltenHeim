@@ -1,0 +1,24 @@
+Nom : Treant
+Vie : 60/60
+Force : 24
+Dext : 10
+init : 10
+symbiose : 8/8
+
+Armure_phy : 1	
+Armure_mag : 1
+
+Capacités :
+Malus : 
+Malus feu : deg+25%
+Malus glace : deg+10%
+Passifs:
+Regeneration : 5pv/tours
+Actifs:
+Armure de boisblanc : -x symbiose, +x en armure phy ou mag sur 1 coup
+
+Description :
+Les Tréants sont des gardiens de la fôrets. Souvent immobiles pendants des décennies, il se réveillent s'ils sentent l'appel d'un Ent 
+
+Age moyen : 150-200 ans
+Taille : 2m

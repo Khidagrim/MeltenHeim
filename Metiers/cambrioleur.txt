@@ -1,0 +1,4 @@
+Lvl1 : Réussir une action de vol permet de gagner +2xp de métier
+Lvl2 : Passif : Satisfaisance du malfrat : Réussir une action de vol permet de gagner +2 hp regen/tour pendant 1 jour
+Lvl3 : Réussir une action de vol permet d'augmenter la chance de 1
+Lvl4 : Passif : Augmente la discretion de 5 dans les batiments

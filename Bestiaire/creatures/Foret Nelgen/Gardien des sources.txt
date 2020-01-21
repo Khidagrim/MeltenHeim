@@ -1,0 +1,31 @@
+Nom : Gardien des sources
+Vie : 200/200
+Force : 25
+Dext : 5
+init : 35
+symbiose : 10/10
+
+Armure_phy : 2
+Armure_mag : 2
+
+Capacités :
+Passifs:
+AA stun : 50% de chance
+AA de zone : 2m autour
+Regen haute : +10pv/tours
+
+Passif : Haute regen : tant que le gardien des sources possède une de ses "lianes" dans la source, il régénère 20hp/tour
+
+Actifs : 
+- Explusion nocive: expulse des trous autour de lui des spores appliquant poison 1 à toutes autre entité et réduisant considérablement la visibilité. (Max vision : 5m autour).
+- Agression lethargique : (-10 symbiose) Chaque joueur lance un dé6 (seulement si le joueur est affecté par poison 1 ). En fonction du résultat : (1-3 = rien, 4-5 : Poison 2)(6 : torpeur (chaque tour : 1/3 de s'endormir)
+
+Description :
+Le gardien des sources réside dans un terrain de spore. C'est une zone plutôt dégagée des forêts magiques. L'herbe y est verte-bleue et des trous (genre trous de taupes) sont un peu partout. Au milieu du terrain de spore se trouve en principe une source d'eau pure ayant de grandes propriétés thérapeutiques anti-altérations dans une sorte de mini temple. Cependant, le gardien des sources veille sur celle-ci.
+
+loot = 
+-Eau de fontaine d'eau pure (quantité = infinie) 
+-Coeur de Gardien des sources
+
+Age moyen : 500 ans
+Taille : 5m

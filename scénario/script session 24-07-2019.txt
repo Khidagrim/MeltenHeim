@@ -1,0 +1,15 @@
+-Event foret enchantée
+-Apparition de Mittgenheim carcasse en mode "sleep"
+-Les joueurs pourront l'analyser de loin, monter dessus ect...
+-La carcasse s'allumera aprés 5 "tours" de joueurs dessus (voir moins).(jet de dé 20 : au bout de 50 (somme des resultats), la carcasse se reveille.).
+
+-Si la carcasse se reveille, elle va se déplacer vers mallamaille (niveau de défence : 1 / 3)
+-Sinon, ce sera aux joueurs de se débrouiller pour joindre la croisade.
+
+
+
+ENIGMES : 
+
+-Cristal du bas : 2 petits cristaux sont a côté du grand : 1 à droite et 1 à gauche, il faut que les joueurs les tiennes pendant 3 tours pour enlever la protection du cristal, pendant chaque tour, des créatures attaqueront pour vous en empecher. Aprés cela, il suffit de taper le cristal pour qu'il soit détruit.
+-Cristal de droite : A sa destruction, tout les joueurs perdent 20% de leur maximum de pv
+-Cristal de gauche : Applique une alteration a chaque joueur lors qu'ils rentrent dans sa salle

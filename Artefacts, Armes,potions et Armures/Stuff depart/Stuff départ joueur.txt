@@ -1,0 +1,203 @@
+Nombre de points : 15 + don du MJ selon fiche de perso + dé6
+
+A
+Amure Buste (4-6)
+Armure Avant-bras (2-4)
+Armure Jambes (2-4)
+Alcool en bouteille (1)
+Assiette (1)
+Aiguille à coudre (2)
+Attache d'arme (3)
+Ardoise (2)
+Arc (5)
+Arbaléte (7)
+Appat (1)
+
+B
+Bottes (1-3)
+Boussole (2)
+Bandage (1-2)
+Baton de marche (1)
+Bourse (1)
+Bougie (1)
+Bille en fer (1)
+Bois (1)
+Baton (3-5)
+Brassard (1)
+Bague (1)
+Baguette (3-4)
+Balais (1)
+Boulier (1)
+Boule de cristal (1)
+Bouclier (3-5)
+Brochette (1)
+
+C
+Carte du pays (2)
+Carte de la région (2)
+Carte du monde (2)
+Ceinture (1)
+Cordes (1/3m)
+Chaussette trouée (4)
+Casque (3)
+Cage (2)
+Coffret & Clée (5)
+Chaine (2/3m)
+Couverture (1)
+Chapeau (1)
+Cheval/monture locale (14)
+Chien (10)
+Corbeau mort (2)
+Cloche (1)
+Canne à peche (3)
+Croix religieuse Orlane (1)
+Carreau (1/ x5)
+Collier (1)
+Craie (1)
+Chiffon (1)
+Carquois (3)
+Chaudron (5)
+Cuillére en bois (1)
+Cuillére en metal (2)
+Cape (2)
+Coton tige (1)
+Chaussons (1)
+Cartes à jouer (1)
+
+D
+Dague (2)
+Dédicace de gantar (6)
+Dé (1)
+Dent (1)
+
+E
+Epée courte (3-5)
+Epée longue (5-7)
+Encre (1)
+Ecorces d'arbre (1)
+Echelle (2)
+Etui à parchemin (2)
+Echarpe (1)
+Eau bénite (1)
+Ecu (3)
+
+F
+Fiole vide micro (10 ml) (1)
+Fiole vide petite (5 cl) (2)
+Fiole vide moyenne (10 cl) (3)
+Fiole vide large (20 cl) (4)
+Filet de peche (4)
+Fer à cheval porte-bonheur (3)
+Ficelle (1)
+Filet à papillon (2)
+Fleche (1/ *5)
+Fronde (2)
+Fouet (3)
+
+G
+Gourde (2)
+Gants (2)
+Grappin (5)
+Gamelle (2)
+Grimoire (3)
+
+H
+Hache à bois (4)
+Hache (3)
+Habits en laine/toile (chemise,pantalon,chaussures,gilet) (0)
+Herbes médecinales (1)
+Herbes Curatives (1)
+Huile (1)
+
+I
+
+J
+
+K
+
+L
+Lame à raser (1)
+Lampe à huile (4)
+Longue vue (4)
+Lunette cassée (1)
+Lunette (2)
+Louche (1)
+Loupe (2)
+
+M
+Mule/Ane (12)
+Marteau (3)
+Masse (2)
+Manteau (2)
+Maillot de sportif (1)
+Menottes & clée (2)
+Magnétite (aimant) (2)
+
+O
+Orties (1)
+Oeuf de poule (1)
+
+P
+Papier (1)
+Parchemin (1)
+Plume (1)
+Potion de vie (3)
+Potions de mana (3)
+Pipe & herbes (1)
+Paille (1)
+Peau de banane (1)
+Panier (1)
+Pelle (2)
+Pierre à aiguiser (2)
+Pioche (2)
+Pain (1)
+Pierres blanches (1)
+Pichet (1)
+Parfum (1)
+Pointe en fer (2)
+Pièce pipée (3)
+
+Q
+
+R
+Ration de voyage (2)
+Racine de vie (1)
+
+S
+Silex et Amadou (1)
+Sac à dos (petit) (3)
+Sac à dos (moyen) (5)
+Sac à dos (gros) (7)
+Sac banane (2)
+Sacoche (2)
+Sausisson (1)
+Shampooing (1)
+Sel (1)
+Sifflet (1)
+Sable (1)
+Sceptre (4-8)
+Sandale (1)
+Sarbacane en bambou(1)
+
+T
+Torche (2)
+Tige en métal (2)
+Tapis (2)
+Tente (5)
+Tonneau (2)
+Tonnelet (1)
+Trefle à 4 fueilles (3)
+
+U
+
+V
+Veste (2)
+Vieux Fromage (1)
+
+W
+
+X
+
+Y
+
+Z

@@ -1,0 +1,53 @@
+Prerequis : Aberran rentre dans la fontaine éthéré de saint angelus
+
+En rentrant dans la fontaine Aberran va rencontrer Equinox
+Il va y avoir une enigme/epreuve pour le rencontrer
+
+
+-->
+Epreuves : 
+	1- Epreuve de l'être, on cherche à savoir si la personne est bonne ou mauvaise.(Epreuve des actes).
+
+	2- Epreuve du pardon, on cherche à savoir si la personne est capable de se pardonner, ou de pardonner aux autres leurs actes.
+
+	3- Epreuve du mérite, on cherche a savoir si la personne est suffisament motivé pour accéder au pardon et à la renaissance.
+
+	
+EPREUVE 1 : Epreuve de l'être
+Humble-Attentif-Calme-Juste
+
+Situation : Aberran retourne dans un lointain passé, du temps ou il était aventurier.
+Il va se souvenir du temps ou il travaillait comme garde-frontiére dans une forte zone de commerce portuaire du Havre. Son boulot est de vérifier les papiers des personnes qui passent, et, si ils tentent de frauder, les envoyer au fers.
+Rappel : Période de guerre, Les Orlans détestent les Dwalns, les Kaldrinns et les Zelgans.
+
+Sur le durée de l'Epruve : 5 personnes vont passer : (si réussite epreuve : +25Ans)
+	-> n°a : Nora, Jeune femme Orlane, paysanne revennant du port et souhaitant retourner dans les champs de son pére, plus loins dans les montagnes.
+(Papiers : Ok) : Timide, impresionnable 
+	
+	-> n°b : Gustav, apprenti mage hautain. (mettra du temps à chercher ses papiers)(papier ok) prends de haut Aberran, trouve ça complétement idiot qu'il lui demande ses papiers, va d'ailleurs passer comme si de rien n'était.
+
+	-> n°c : Sharran, Ecuyére du chevalier Pholeon. N'as pas ses papiers mais doit remettre de toute urgence cette missive en main propre à un nobre le la ville d'a coté. Elle insiste pour passer, elle prétends n'avoir aucune mauvaise intention, demande qu'on l'accompagne pour qu'elle le prouve, ect...
+(intention véritables)
+
+	-> n°d : Hugo, jeune garçon, prétendant être le fils du maréchal ferrant de la ville d'as côté, son pére lui avait demandé de partir faire des courses pour lui mais il raconte qu'il s'est fait volé sont argent et ses papiers par la même occasion.
+(faux : il ment, c'est un dwaln déguisé). 
+		-Si Aberran le laisse passer : Son chef haut-gradé va lui tomber dessus, l'engueuler et lui disant qu'il est trop naif ! Va passer deux jours au trou pour lui apprendre
+		-Si Aberran ne le laisse pas passer, le garçon se met à pleurnicher et va essayer de passer. Si Aberran le laisse, son chef arrive juste a ce moment et lui demande qui fait ce boucant : il decouvre l'enfant et le force à se révéler. 
+		
+		-Si Aberran a un doute sur lui, et veut le faire se reveler, l'épreuve est finie. Son chef le félicite et l'enméne dans un couloir, il lui explique que sa femme est une dwaln et qu'elle doit passer la frontiére, il lui propose de l'argent pour qu'elle puisse passer.
+	-En fct des motivations d'Aberran, il va , ou pas , accepter et valider, ou non l'épreuve.
+
+EPREUVE 2 : Epreuve du pardon. Il est envoyé dans une prison par rapport à sa derniére décision et doit garder des cellules. Il va retrouver y ses autres compagnons qui vont avoir un sort moindre. Ceux-là se moquent de lui en disant que ça vallait bien le coup de pas les avoir suivit. Puis Les compagnons vont s'évader. Ils vont se retourner et proposer à Aberran de les suivres. 
+	-Si Aberran les dénoncent : Epreuve ratée
+	-Si Aberran ne bouge pas : Les compagnons sont attrapés et renvoyés en prison. C'est à Aberran que la décision de leur sort est demandé car ils étaient sous sa responsabilité.
+	-Si Aberran les aides : tout le monde s'échappe.
+	
+EPREUVE 3 :Aberran(sans ses pouvoirs mais avec ses compétences d'aventuriers) versus Aspect de l'acédie
+
+
+-- // Fin Heureuse 
+--> A la fin, Aberran retrouve son frére, celui-ci lui offre ses pouvoirs car aberran n'as plus les siens. Aberran gagnes les pouvoirs de Demetrius
+En fonction du score d'Aberran, il aura une durée de vie changeante. Ses sorts ne coutent pas de mana mais de la durée de vie.
+ 
+-- // Fin Malheureuse
+--> A la fin, Equinox juge Aberran coupable, il est défait de ses pouvoirs. A cet instant, l'aspect de l'acédie sort. Si Aberran aide l'aspect, il sera envoyé dans les limbes. Si il ne fait rien ou l'aide (même très peu), il sera envoyé auprés de son frére mais mourra quand même.

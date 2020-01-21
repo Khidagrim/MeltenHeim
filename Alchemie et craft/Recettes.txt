@@ -1,0 +1,202 @@
+Potions : 
+
+*De vie :
+-Permet de regen x pv
+Ingredients : 
+-eau, plante médicinale (dé10 + 12 HP), racine de vie(dé6+8)
+
+
+*De vie +++:
+-Permet de regen x pv
+Ingredients : 
+-eau, plante de vie (dé15 + 24 HP)
+
+*De regeneration de vie:
+-Permet de regen x pv pdt 3 tours
+Ingredients : 
+-eau, plante médicinale ( x = +9)/racine de vie (x = +4), fruit de l'arbre dangau
+
+
+*De regeneration de vie+++:
+-Permet de regen x pv pdt 3 tours
+Ingredients : 
+-eau, plante de vie ( x = +20), fruit de l'arbre dangau
+
+
+*De regeneration de mana:
+-Permet de regen x pv pdt 3 tours
+Ingredients : 
+-eau, cendre de mage ( x = +10), fruit de l'arbre dangau
+
+
+*De planage : 
+-Permet de Planer
+Ingredients : 
+-Aile de chauve-souris, eau
+
+
+*De tournis instantanné :
+-Cotion qui phange la serpeption
+Ingredient : 
+-Alcool blanc, Bile de renard
+
+
+*De resistance au feu volatile:
+-Potion qui donne 25% de resistance au feu sur 3 tours, recul+1
+Ingredients :
+-eau, Cendres d'un oiseau carbonisé
+
+
+*De concentration instantannée :
+-Donne + 10 en intelligence sur 1 tour (aide du mj)
+Ingredient : 
+-eau, Cendres d'un érudit
+
+
+*De mana instantannée :
+-Regen +12 en mana
+Ingredient : 
+-eau, Cendres d'un mage
+
+
+*De resurection : 
+-Permet de ranimer une entité morte pdt (3j) (5ans si coeur d'hael)
+Ingredient : 
+-eau, chévre morte, (+coeur d'hael), arcanoa
+
+
+*De creation de mana
+-Permet de gagner +5 mana max
+Ingredient :
+-Coeur d'hael, sang
+
+
+*De chasteté :
+-Permet de résister aux avances sexuelles de gens sociables
+Effet indesirable : 
+1/8 de devenir moche (4/8 si +ingredient bile de renard)
+Ingredient : 
+-eau, cheveu de vierge,(+bile de renard)
+
+
+*De resistance aux engelures (4 ou -)
+-Permet de resister à l'alteration Engelure 4
+Ingredient : 
+-eau chaude, cimelweiss 
+
+
+*Potion de camouflage
+-Permet de gagner +10 en discretion (ou -10 si non ajout de l'ingredient
+Ingredient : 
+-eau, Corbeau mort, Cheveu de vierge
+
+
+*Potion de force X
+-Permet de gagner +3+x en force pdt 3 tours
+Ingredient : 
+-eau, Dent d'ours (x = +2), écorce de chéne
+-eau, Dent de Loup (x = +1), écorce de chéne
+-eau, Dent de rat (x = -1), écorce de chéne
+-eau, Dent de requin (x = +4), écorce de chéne
+
+
+*Potion de respiration aquatique
+-Permet de respirer sous l'eau pendant 5h (+ evite les désagrements de la pression si boule de cire)
+Effet indésirable :
+-HEIN??!! (surdité tant ue les boules de cires sont dans les oreilles)
+Ingredient :
+-Essence de srinls, boule de cire (dans les oreilles)
+
+*Potion de regeneration capillaire
+-Permet de faire pousser les cheveux et la barbe
+Ingredient :
+-eau, Feuilles d'arbre millénaire
+
+*Potion de convocation du tonnerre
+-Permet de convoquer le tonnerre là ou l'air entre en contact avec le contenu de la potion
+Ingredient:
+-Cendre de mage, eau, mousse des cavernes electriques
+
+*Potion de vision lointaine
+-Permet de voir plus loin, de jour comme de nuit
+Ingredient :
+-Oeil de crapaud, eau
+
+*Potion de chasse de trésor
+-Permet de débusquer les tresors proches cachés pdt 4 tours
+Ingredient : 
+-Poils de barbe de nain rousse, eau, poudre d'or
+
+
+Pommade : (sur la peau)
+
+*De frénésie du bucheron
+-Permet de gagner + 8+x Force contre les arbres
+Ingredients : 
+-Graisse de castor, Herbe grise de marais, poil de tatooans (x = +5)
+
+*De protection contre les brulures
+-Permet de calmer une brulure 3 ou moins (4 si plante de brasier)
+Ingredient : 
+-Herbe de Nilla OU onguent de plante de brasier , graisse (normale/+)
+
+*De boost de dextérité
+-Permet d'augmenter la dextérité de +x sur 3 tours
+Ingredient
+-Graisse, plume d'aigle des montagne (x = 5)
+-Graisse, plume de coq noir ( x = 15 )
+-Graisse, plume de pahol (x = 10)
+
+*De renforcement lunaire
+-Permet d'avoir plus de resistane physque la nuit
+Ingredient : 
+Onguent, poudre d'argent
+
+
+
+Parchemin
+
+*De resurection locale
+-Permet de ressusiter une créature proche
+Ingredient:
+-Parchemin, poils de chévre morte
+
+
+
+
+Bougies : (5m d'effet)(1 tour de cast)
+
+*De tournis instantanné collectif:
+-Cougie qui bhange la serpeption des aens gutours
+Ingredient : 
+-Alcool blanc, Bile de renard, Bougie verte
+
+
+*De tournis instantanné collectif mortel:
+-Cougie qui bhange la serpeption des aens gutours et mue la port !
+Ingredient : 
+-Alcool blanc, Bile de renard, Bougie noire de suint de bouc
+
+
+*D'éloignement de monstres faibles:
+- Bah... Eloigne les monstres faibles (voir mieux)
+Ingredient :
+- Bougie (normale voir mieux) planté dans la gueule d'un crapeau séché
+
+
+
+Cuisine : 
+Ommelette de puissance
+-++ en puissance magique pdt 3 tours
+Ingredient : 
+-oeuf de crapaud (+2 magie)
+-oeuf de poule (+1 magie)
+-oeuf de dragon (+50 magie)
+-oeuf de grenouille (+3 magie)
+-oeuf de griffon (+25 magie)
+
+
+
+
+
+

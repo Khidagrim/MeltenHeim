@@ -1,0 +1,18 @@
+Nom : Golem du renouveau
+Vie : 150/150
+Force : 40
+Dext : 0 
+init : 15
+
+Armure_phy : 2
+Armure_mag : 5
+
+Capacités :
+Passifs:
+-Insensible au controle
+
+Description :
+Créature ancienne vivant dans le désert. Ils sont peu nombreux et rares sont ceux pouvant assister à leurs déplacements. En effet, ces golems passent 90% du temps enfoncés dans le sol. On raconte que que tout autour d'eux se forme des oasis. Il arrive qu'ils sortent du sol pour aller ailleurs et un nouveau oasis se créera alors.
+
+Age moyen : ??? ans
+Taille :11m

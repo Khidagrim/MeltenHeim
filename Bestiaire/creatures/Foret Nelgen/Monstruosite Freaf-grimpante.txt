@@ -1,0 +1,19 @@
+Nom : Monstruosité Freaf-Grimpante
+Vie : 80/80
+Force : 15
+Dext : 10 
+init : 30
+Symbiose : 5/5 
+
+Armure_phy : 8
+Armure_mag : 8
+
+Capacités :
+Passifs:
+-Attaque multiples : Si l'attaque réussit, la 1ére plante au dessus de leur tête frappe (force/2) et si l'attaque réussi, la derniére tête tape aussi (force/3).
+
+Description :
+Les monstruosité Freaf-grimpant sont à l'origine des Ents qui ont été contaminés par les composants chimiques du vaisseau Nelgen et la magie noire des 'Aspects'. Ils obéissent seulement à Mittgenheim, l'abomination-esprit.
+
+Age moyen : ???
+Taille :2m50 cm

@@ -1,0 +1,1998 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="événementplaine" sid="6074008201817515" static="0" type="number">0</variable>
+        <variable constant="0" name="événementMontagne" sid="7936500888883988" static="0" type="number">0</variable>
+        <variable constant="0" name="événementforet" sid="3308438843326491" static="0" type="number">0</variable>
+        <variable constant="0" name="événementville" sid="7094588584816612" static="0" type="number">0</variable>
+        <event-block sid="5683459932358642">
+            <conditions>
+                <condition id="0" name="On clicked" sid="3038156490779126" type="VilleB" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1100437669205592" type="System">
+                    <param id="0" name="Variable">événementville</param>
+                    <param id="1" name="Value">random(21)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="902198569976647">
+            <conditions>
+                <condition id="0" name="On clicked" sid="7025501382730272" type="ForetB" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4292747052430854" type="System">
+                    <param id="0" name="Variable">événementforet</param>
+                    <param id="1" name="Value">random(31)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4633895684096247">
+            <conditions>
+                <condition id="0" name="On clicked" sid="3494275971306093" type="MontagneB" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7321246515354871" type="System">
+                    <param id="0" name="Variable">événementMontagne</param>
+                    <param id="1" name="Value">random(29)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7530670916639365">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9655269257232354" type="PlaineB" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1673723141425304" type="System">
+                    <param id="0" name="Variable">événementplaine</param>
+                    <param id="1" name="Value">random(25)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="8047385693023493" title="Plaine">
+            <sub-events>
+                <event-block sid="1225165513803515">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="823441184148152" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6183040301640663" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2736164502489924" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Vide&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5020946818121085">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1914042906875939" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9145812533587679" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7194817103576632" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Vide&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6258517872985148">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8469625972868518" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2758352823177044" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2364649841987707" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Méfiant : 2 Pahols&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="634496876260948">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1346477762013679" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6094866476733705" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="83335148959789" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Neutre : 2 Pahols&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2865227623920437">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2042936572697003" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9185065860615756" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="426023951661069" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine hostile: 1 Pahol&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2101059705483465">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2302052770264671" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4813864124404129" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8586847093922257" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Hostile: Troupeau de Glenns&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9570432554121008">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5320364421214304" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5908994252039586" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2095194269845483" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Neutre: Troupeau de Glenns&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4322039517041568">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1491961206700031" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2207036282799164" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3845374207088233" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Amicale: Troupeau de Glenns&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8541974430018952">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5673590454480584" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5130483068242902" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9354381849014122" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Hostile: Troupeau de Graaks &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8133806726765474">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3022938073877092" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1203703036398867" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9882410485288044" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Amicale: Troupeau de Mat-MouT &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7870197466262403">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9963301834131531" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1761475821046352" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="4831802861804744" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Neutre: Troupeau de Mat-MouT&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2049646200688924">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7988401943292224" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3359947690052392" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="650330244748723" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Neutre: Campement de gobelins&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5385875941172154">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3167920304622934" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3417911898498883" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2380879892175545" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Hostile: Campement de gobelins&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9749216347167682">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6446293683325864" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7754905930091311" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9580307632327488" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Hostile: Cabane ( piége: Porte empoisonnées (-3vie)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8298434207520972">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7652178335521975" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="8306371351330803" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5211018201802464" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Amicale: Cabane ( 2 potions de vie (3vie))&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2034289547048116">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9550092432840093" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3186660256136034" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2946735158635493" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Neutre : Cabane (Piéce d&apos;armure D planquée )&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="443865451309399">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1210404238608669" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6120586985041172" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5696302364892249" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Hostile: Troupe de (entrer peuple) (10)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1117760316771219">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="276570784275425" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5850965894882858" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1498334004659262" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Neutre: Troupe de (entrer peuple) (10)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="681682060163919">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="500628870971694" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">19</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3611252181937732" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="651642290378442" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine hostile: groupe de Trolls&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7852668048465365">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1532173258643425" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">21</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4517514758448771" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">19</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7109862535895508" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine hostile: meute de galadraag&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6412915618076937">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7562106188008971" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">23</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2373259679855629" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">21</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3092762384527257" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine hostile: 2herbes curative + 1herbe médecinale&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5650195316238283">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6383352960573595" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">24</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9967676000722463" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">23</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8261001311501314" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Neutre: Gouffre&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1071857793739714">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3848118229590701" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">25</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4989041005491053" type="System">
+                            <param id="0" name="Variable">événementplaine</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">24</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9375750841456507" type="PlaineT">
+                            <param id="0" name="Text">&quot;Plaine Hostile: 1 dragon&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="2635320096866668" title="Fôret">
+            <sub-events>
+                <event-block sid="9047734195636477">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2377049332093153" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1921918293343037" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2748753973322808" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Amicale: Troupeau de Glenns&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4876827026863484">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5683548532605982" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7339119290990238" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5319091723580234" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Troupeau de Glenns&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6537534092563632">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1912136322921722" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2759470696793312" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5131121923321918" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Troupeau de Mat-MouT&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6607868947471941">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9922524868658502" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4027925212262305" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2649699737613888" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Troupeau de Mat-MouT&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8887520687027992">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5339587260170078" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="528411733341237" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="4190705979217591" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: campement de Brigants&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4326505636704765">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4303482214499801" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6966095168879528" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1824630034471208" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret neutre: Patrouille de garde (entrer pays)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5984177960638852">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1040599636488137" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6729990119864717" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8583375899316049" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret méfiant: Patrouille de garde (entrer pays)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2394160571012297">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5410645726101498" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9192759356887832" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8224824860681401" type="foretT">
+                            <param id="0" name="Text">&quot;Village/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Riche(commerce avec répercussions) Gang de Brigants&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="891408786405077">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1055843890084609" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1420534459450913" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6622229272413219" type="foretT">
+                            <param id="0" name="Text">&quot;Village/Méfiant( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2257168589371809">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="247345618732405" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1280381157274993" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1091059399262951" type="foretT">
+                            <param id="0" name="Text">&quot;Village/amical(peut entrer dans batiments publiques et privés)Riche (commerce sans répercussions)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="721518542638769">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8468585663848794" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7896358539904878" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3220489830093888" type="foretT">
+                            <param id="0" name="Text">&quot;Village/Neutre(peut entrer dans batiments publiques)/Pauvre(pas de commerce)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7681588880605477">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3830909203891247" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9539128529011433" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7995831787714848" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Amicale: Cabane de bois&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="456648277929092">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4886504304084087" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6033517100930151" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3525600433197729" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Amicale: Cabane de bois&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9459253626346623">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2922711343439603" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5333333831831014" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3928144167155545" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Cabane de bois&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6997254346096005">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1135931833424434" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5038737521286566" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="374371281278679" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Coffre de bois abandonné&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8674674941927382">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6818010828097561" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7384710790547997" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="331992104076495" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Coffre de bois abandonné&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6730543016926265">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8790010075441418" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5128652701002354" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9467713897224483" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret amicale: Coffre de bois abandonné (10 piéces d&apos;or)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="985868789615922">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3932317131475299" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9155573432915472" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8262029721396554" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: 1 Pahols&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2719558734467418">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="784435684398143" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">22</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9707247010935788" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7283154003727242" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Amicale: 3 plantes curatives&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1324850569752532">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9973022491101979" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">24</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2442925418027119" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">22</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2301954786712513" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Amicale: 3 plantes médecinale(+3pv)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8612175356714773">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4267451620782155" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">25</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="8105703079498078" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">24</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="4469861918865917" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Meute de Géhens&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="177406575924235">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5279563684204383" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">26</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9737302753697836" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">25</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2585595770542067" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: 1 géant&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7145280013662759">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9648678428753602" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">28</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="616112568058154" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">26</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2562380094322501" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: 2 trolls&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1255548246101592">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2991994049344913" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">29</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="119646977655153" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">28</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9412356914690799" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Boss Ent&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8302810027859897">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5094426915010453" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">31</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3226779501220847" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">29</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1776456188397379" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: Meute de Galadraag&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3511281083643616">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3446546926326401" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">33</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6514008245527737" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">31</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3621841978337231" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Hostile: coffre piégé (malédiction sur les stats)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9893046767673626">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8531973000127823" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">35</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="8037868155142797" type="System">
+                            <param id="0" name="Variable">événementforet</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">33</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3649085439463504" type="foretT">
+                            <param id="0" name="Text">&quot;Fôret Amicale: coffre (5piéce +Arme D)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="8762347313504804" title="Montagne">
+            <sub-events>
+                <event-group description="" sid="2889534603154987" title="Grotte">
+                    <sub-events>
+                        <event-block sid="1253229086768909">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4981915475964155" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">6</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="2668942475158431" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="3966046918109119" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte piégée (2-3 Gobelins)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5065708252474905">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="7612438669716989" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8738474674244308" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="5220825659855025" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte piégée (10 Gobelins)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9260270809173019">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="6077216116388562" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6862816697795842" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="6849844970812316" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte piégée (3 Graaks)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="806511142394018">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="6574119860197676" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">20</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="163001039415772" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">19</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="2980134004083509" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte piégée (2-3 Gobelins)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9793601204375445">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3060272869097986" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">21</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4031850809491432" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">20</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="7872183052880099" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte piégée (10 Gobelins) + coffre D(1 piéce d&apos;armure+3 piéce d&apos;or&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="421580436084977">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="7609872472499306" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">22</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4460587518580838" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">21</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="9147948818047053" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte abandonnée avec coffre(1 piéces d&apos;armures E et 3 piéces d&apos;or)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3654350237754353">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4120400167572038" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">23</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4429282509549229" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">22</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="8405749723483561" type="MontagneT">
+                                    <param id="0" name="Text">&quot; Avertissement: Grotte Piégée (Dragon) +40 piéces d&apos;or + 3 armuresC &quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9307400234937397">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2565581263364119" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">24</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6732473943121735" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">23</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="2008323946389661" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte abandonnée avec coffre(1 piéces d&apos;armures E et 3 piéces d&apos;or)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3826413609175622">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9053659681623997" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">25</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="9324329191853197" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">24</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="1489813407298418" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte vide&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3922855194066125">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4405094779637145" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">26</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6822212504163952" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">25</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="3022425276468109" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte vide&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8750590116016615">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3464030805075817" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">27</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6449642719598591" type="System">
+                                    <param id="0" name="Variable">événementMontagne</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">26</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="6001120390388987" type="MontagneT">
+                                    <param id="0" name="Text">&quot;Grotte abandonnée avec coffre(1 piéces d&apos;armures E et 3 piéces d&apos;or)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="7467339829659376">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4144650378440114" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5426108558357434" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1704805599836803" type="MontagneT">
+                            <param id="0" name="Text">&quot;Ville/amicale(peut entrer dans batiments publiques et privés)Riche(commerce sans répercussions)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2260788466481471">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1170913207169524" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9434328719048886" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8170517288184324" type="MontagneT">
+                            <param id="0" name="Text">&quot;Village/amicale(peut entrer dans batiments publiques et privés)Pauvre (pas de commerce)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9452521683554129">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6384934966716115" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6125158139366287" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6163710708869502" type="MontagneT">
+                            <param id="0" name="Text">&quot;Village/Neutre(peut entrer dans batiments publiques)/Riche( commerce sans répercussions)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9819297232523523">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7019988291464425" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7206447446987426" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="779425433392657" type="MontagneT">
+                            <param id="0" name="Text">&quot;Village/Neutre(peut entrer dans batiments publiques )/Pauvre(pas de commerce)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5968761871416318">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6988058383332165" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9497155574483719" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9455599642394337" type="MontagneT">
+                            <param id="0" name="Text">&quot;Village/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Riche(commerce avec répercussions)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2524817167880229">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9113399208905026" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9439745281044527" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9748548073426632" type="MontagneT">
+                            <param id="0" name="Text">&quot;Village/Méfiant( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3102883776608283">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2361292339594036" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3645904327266473" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5133231074715786" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne hostile: Nid de Graaks + arme D&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5155346469101676">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="864250428043928" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4481219667360469" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6290430110288345" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne Hostile: campement de Gobelins (20)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4160078853872421">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8888195524598984" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3501593900117558" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9265294008646977" type="MontagneT">
+                            <param id="0" name="Text">&quot;montagne Amicale: Cabane de bois&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2234737067003612">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9607686559731808" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6861107729907394" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2656179662876564" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne Amicale: Cabane de bois&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8116471556261928">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7536204379450325" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9458912870463388" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2850894591893197" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne Hostile: Cabane de bois&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5905000792624336">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2806075308854793" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1353140012356608" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3343678168571905" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne Hostile: Coffre de bois abandonné&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="421980705281188">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4553850915698423" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1710558574068997" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8938284618583702" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne Hostile: Trous profond&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4580809730805203">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4963479641953736" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="972362131189741" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6921639362751692" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne Amicale: Trous profond&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9462975658287744">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4445708752754029" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2601276477420289" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7410144759419749" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne neutre: Patrouille de garde (entrer pays)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8233488999343605">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6823299295615284" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">19</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2526779134303381" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7379790239736556" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne méfiant: Patrouille de garde (entrer pays)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7558112529831881">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5726649641216095" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">28</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2810460481983466" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">27</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8218942838162858" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne hostile: 1Géant &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1369337816581283">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1788481148631973" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">29</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6934280384779447" type="System">
+                            <param id="0" name="Variable">événementMontagne</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">28</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9304229167984901" type="MontagneT">
+                            <param id="0" name="Text">&quot;Montagne neutre: meute de Galadraag &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="8698552096375877" title="Ville/village">
+            <sub-events>
+                <event-group description="" sid="3710918742578616" title="Ville">
+                    <sub-events>
+                        <event-block sid="3743775264587959">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4677690089969008" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8670966953832784" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="4022794278360844" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/amical(peut entrer dans batiments publiques et privés)/Pauvre(pas de commerce)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3885150168560893">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2056828785899883" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8382995355154286" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="7973750654948172" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/amical(peut entrer dans batiments publiques et privés)Riche (commerce sans répercussions)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9866171153939014">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="7711640339568176" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="326020696476159" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="8768556840016324" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Neutre(peut entrer dans batiments publiques)/Pauvre(pas de commerce)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7171321454368656">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5814698294027933" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8660216480536163" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="1797583900527829" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Neutre(peut entrer dans batiments publiques )/Riche(commerce sans répercussions)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5736990255560651">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5387265687196791" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="5782500485994188" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="2956690243872766" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5869630665755246">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="7138156346730893" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">6</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8215565720504763" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="6789989671419876" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce)Gang de Brigants&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3866207042141247">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3620473951253133" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6392485477760299" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="5181709505481508" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Riche(commerce avec répercussions)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5285271458202126">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3864892703875166" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="2252427736795432" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="1894460024777784" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Riche(commerce avec répercussions) +gardes&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="951439914586599">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9678672574397542" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4589506647692787" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="1744232625881622" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Méfiant( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4873976190030047">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8219128457005778" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">20</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="9806803524007648" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">19</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="8432509434373626" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Méfiant( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce) gang de brigants&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6561770533468439">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9166285926583559" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="6817313859403281" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="7079230209200227" type="VilleT">
+                                    <param id="0" name="Text">&quot;Ville/Méfiant( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Riche(commerce sans répercussion)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="4785123559162488" title="Village">
+                    <sub-events>
+                        <event-block sid="7359846163835911">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5865956303869205" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="5070843176171021" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="3415302143818056" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/amical(peut entrer dans batiments publiques et privés)/Pauvre(pas de commerce)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5997954220187606">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2240352165520348" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="3729650144056489" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="9906351655426225" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/amical(peut entrer dans batiments publiques et privés)Riche (commerce sans répercussions)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3303434109704767">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8461374719673575" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">13</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4303536627932216" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="5641182714070111" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/Neutre(peut entrer dans batiments publiques)/Pauvre(pas de commerce)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="916357640527338">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8495350030755946" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">14</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="3741037157395443" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">13</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="2140870381682285" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/Neutre(peut entrer dans batiments publiques )/Riche(commerce sans répercussions)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8351126719886539">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2376596234764758" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="385304820680081" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">14</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="2813868491452211" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9824232759748634">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9452426087335453" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">16</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="9612318516001422" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="5172051931401538" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce) gang de Brigants&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4466298584577311">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3306080071386328" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">17</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="76385199294418" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">16</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="1864266220621307" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Riche(commerce avec répercussions)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4247966280537977">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="6682526022905755" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">18</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="8061245784095394" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">17</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="4348724947724589" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/Méfiant( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Pauvre(pas de commerce)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2436958828189164">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2445451051147241" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">19</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="3538009015675613" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">18</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="6950848446226959" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/Méfiant( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Riche(commerce sans répercussion)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6280259887648394">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3849519736117378" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">21</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="4702342433394636" type="System">
+                                    <param id="0" name="Variable">événementville</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">20</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="1545494243531144" type="VilleT">
+                                    <param id="0" name="Text">&quot;Village/Hostile( ne peut pas entrer dans batiments publiques/privés sans répercussions )/Riche(commerce avec répercussion) + gardes&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-block sid="4136896217943001">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6428949940577173" type="Button" />
+                <condition id="-8" name="Compare two values" sid="8979995607161922" type="System">
+                    <param id="0" name="First value">LayoutName</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">&quot;Layout 1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8787653359039502" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

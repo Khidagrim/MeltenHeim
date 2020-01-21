@@ -1,0 +1,26 @@
+Nom : Gareeyan
+Vie : 250/250
+Force : 50
+Dext : 25
+init : 40
+symbiose : 20/20
+
+Armure_phy : 10
+Armure_mag : 10
+
+Capacités :
+Malus : 
+Malus feu : deg+15%
+Malus glace : deg+10%
+Passifs:
+AA stun : 25% de chance
+AA de zone : 5m de longueur
+Regen haute : +15pv/tours
+Actifs : 
+metasynthèse (-12 sym) : Fait pousser du liére résistant et empéche 2 cible de bouger (flash)
+
+Description :
+Le Gareeyan est une divinité locale chez les folgs, grand protecteur et defenseur de la foret. Il n'est aggressif qu'envers ceux qui lui semble hostiles
+
+Age moyen : 250-350 ans
+Taille : 10m

@@ -1,0 +1,26 @@
+Nom : Bahamut
+Vie : 500/500
+Force : 75
+Dext : 20 
+init : 50
+magie : 70
+mana : 100/100
+
+Armure_phy : 12
+Armure_mag : 15
+
+Capacités :
+Passifs:
+-vitesse + 6
+-Mastodonte : peur + 10
+-Coups délétéres (les blessures ne peuvent être soignées)
+
+Actifs
+-Souffle de sable : (-15pm)inflige fatigue + dégats magiques sur une large zone
+-Malediction du Bahamut (à la mort).
+
+Description :
+Grands dragon du desert. On raconte qu'ils veillent sur d'anciennes ruinnes ou vivaient les anciens créateurs des sedlheims et leurs trésors
+
+Age moyen : ??? ans
+Taille : 65m

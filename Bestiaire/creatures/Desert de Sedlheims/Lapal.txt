@@ -1,0 +1,19 @@
+Nom : Lapal
+Vie : 18/18
+Force : 5
+Dext : 30 
+init : 25
+
+
+Armure_phy : 0
+Armure_mag : 0
+
+Capacités :
+Passifs:
+-vitesse + 2
+
+Description :
+Animal d'élevage destiné à être mangé. Les lapals sauvages ne se font pas rare mais ont une espérance de vie faible dans le désert.
+
+Age moyen : 4 ans
+Taille : 70cm

@@ -1,0 +1,10 @@
+body
+{
+	background: url('../images/bg_characgen.jpg') no-repeat;
+	background-size: cover; 
+}
+
+button:hover
+{
+	cursor:pointer;
+}

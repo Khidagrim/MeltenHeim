@@ -1,0 +1,21 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}BackOffice | les Videos{% endblock %}
+{% block specific_css %}
+  <link href="{{url('/assets/css/style.css')}}" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block content %}
+
+<h1 class="text-light">Visionner la Video : <b>{{video.titre}}</b></h1>
+<p class="text-light">Indiquer les données à modifier de cette Video.</p>
+
+<div class="col-6 embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item text-light" src="{{url('/assets/video/' ~ video.lienVideo)}}" onloadstart="false" allowfullscreen></iframe>
+</div>
+{% endblock %}
+
+{% block specific_js %}
+<script>
+
+
+  </script>
+{% endblock %}

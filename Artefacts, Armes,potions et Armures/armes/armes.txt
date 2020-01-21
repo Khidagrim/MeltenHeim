@@ -1,0 +1,41 @@
+Qualité médiocre :
+Epée Courte (+1deg)
+Epée Longue +3deg (2mains)
+Epée : +2deg
+Dague (+1deg) (-1 menace)
+Lance (+2deg) (2 mains)
+Hache(+1deg) (+1 menace)
+
+Qualité mauvaise:
+Epée Courte (+2deg)
+Epée Longue +5deg (2mains)
+Epée : +3deg
+Dague (+2deg) (-1 menace)
+Lance (+4deg) (2 mains)
+Hache(+4deg) (+1 menace)
+
+Qualité normale:
+Epée Courte (+4deg)
+Epée Longue +10deg (2mains)
+Epée : +6deg
+Dague (+4deg) (-1 menace)
+Lance (+9deg) (2 mains)
+Hache(+7deg) (+1 menace)
+
+Qualité bonne:
+Epée Courte (+5deg)
+Epée Longue +13deg (2mains)
+Epée : +7deg
+Dague (+6deg) (-1 menace)
+Lance (+11deg) (2 mains)
+Hache(+8deg) (+1 menace)
+
+Qualité excellente :
+Epée Courte (+8deg)
+Epée Longue +18deg (2mains)
+Epée : +9deg
+Dague (+7deg) (-1 menace)
+Lance (+15deg) (2 mains)
+Hache(+10deg) (+1 menace)
+
+

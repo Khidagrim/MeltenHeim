@@ -1,0 +1,19 @@
+Nom : Mahea
+Vie : 85/85
+Force : 9
+Dext : 20 
+init : 20
+
+Armure_phy : 2
+Armure_mag : 0
+
+Capacités :
+Passifs:
+-Plane
+-Tête dure
+
+Description :
+Les Mahea habitent sur les zones hautes du desert Sedlheims. Ils ont pas souvent besoin d'eau et ont la tête dure. Lors qu'un prédateur s'approche trop de chez eux, ils sautent des falaises en s'écrasent en piquet sur leur cible.
+
+Age moyen : 7 ans
+Taille : 90cm

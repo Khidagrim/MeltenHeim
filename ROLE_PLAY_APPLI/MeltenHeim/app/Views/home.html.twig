@@ -1,0 +1,32 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}
+  Home
+{% endblock %}
+
+{% block additional_css %}
+  <link rel="stylesheet" href="{{url('/assets/css/index.css')}} ">
+{% endblock %}
+
+{% block content %}
+  <div id="titre">
+    <h1>MeltenHeim</h1>
+  </div>
+  <div id="menu">
+    <button data-page="worldMap"><div>Carte Monde</div></button>
+    <button data-page="biome"><div>Biomes</div></button>
+    <button data-page="events"><div>Générateur Événements</div></button>
+    <button data-page="fight"><div>Gestionnaire Combats</div></button>
+    <button data-page="loots"><div>Générateur Butins</div></button>
+    <button data-page="dice"><div>Lanceur de Dés</div></button>
+    <button data-page="story"><div>Histoire</div></button>
+    <button data-page="creature"><div>Livre Monstre</div></button>
+    <button data-page="naturalBook"><div>Livre Nature</div></button>
+    <button data-page="characGen"><div>Générateur de Persos</div></button>
+  </div>
+{% endblock %}
+
+{% block additional_js %}
+{% endblock %}
+
+
+

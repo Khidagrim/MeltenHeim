@@ -1,0 +1,16 @@
+Nom : Alpee
+Vie : 20/20
+Force : 2
+Dext : 20
+init : 15
+
+Armure_phy :
+Armure_mag :
+
+Capacités :
+
+Description :
+Jeune Alpolg, mets 5 mois pour grandir.
+
+Age moyen : 10-12 ans
+Taille : 0.9 m - 1.15 m

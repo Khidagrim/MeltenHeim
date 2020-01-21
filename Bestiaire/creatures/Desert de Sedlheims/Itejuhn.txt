@@ -1,0 +1,16 @@
+Nom : Itejuhn
+Vie : 70/70
+Force : 12
+Dext : 10 
+init : 10
+
+Armure_phy : 1
+Armure_mag : 2
+
+Capacités :
+
+Description :
+Ces montures sont trés prisés des Sedlheims. En effet, ces créatures absorbent l'eau présent dans l'air et s'en servent pour remplir la partie supérieure de leur crane. Une méthode d'extraction Sedlheim permet de récuperer l'eau sans faire de mal à l'animal.
+
+Age moyen : 18 ans
+Taille : 2m30

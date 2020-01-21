@@ -1,0 +1,18 @@
+-Fatigue x: res des dés +2/+3/+x
+-Faiblesse X: -x%*10 de dégats
+-Torpeur/sommeil : dés 6 : 1-2-3 = rien, 4-5 : pas d'action, 6 : s'endors (se reveille en cas d'action à son égard)
+-Peste : -x*4 pv pdt x tours
+-Cauchemar : dés 6 : 1-2-3 = rien,hallucinations + le joueur peut se faire mal
+-Brulures : -x*4 pv pdt x tours (dés 6 : si 1-2-3-4 = rien, si 5-6 la brulure s'aggrave)
+-Engelures : combinaison faiblesse + fatigue
+-Sur les nerfs/Nerveux :dés 6 : 1-2-3-4 = rien, Perte du sang froid, reduction du social (10% par points)
+-Peur : Soit fuite obligée, soit fuite impossible
+-Folie : augmente le risque de toucher des alliés, ne pars jamais
+-Angoisse : le repos régénére 50% de moins.
+-Linceul X : Mort progressive du personnage, celui-ci posséde toute les altération en *x. A sa mort, le personnage renait sanctifié. (mort en 12 tours)
+-Fragile X : perds x*3 armure sur x tours 
+-Gourmandise : Lance un dé 20, si il fait - de (10-Gourmandise), alors gourmandise +1, sinon le joueur passe son tour.
+-Paralysie x: Le joueur ne peut bouger sur les x prochains tours
+-Ankylose x : le joueur ne peut utiliser un membre ankylosé sur les x prochains tours.
+-Acide x = Fragilité x/3 + Corosion x + peste x-1
+-Corosion : Les objets metalliques perdent en durabilité

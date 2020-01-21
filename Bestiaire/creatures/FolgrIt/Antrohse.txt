@@ -1,0 +1,21 @@
+Nom : Antrohse
+Vie : 3/3
+Force : 0.1
+Dext : 0
+init : 8
+Symbiose : 1/1
+
+Armure_phy :0
+Armure_mag :0
+
+Capacités :
+Passif :
+-Rend insensible à la peur.
+Actifs:
+-Resurgeance symbiotique: (-4 symbiose de l'Antrohse (ou DES Antrohses)) : Soigne 12 PV.
+
+Description :
+Petit champinion social des forets folgs. Ils aiment les temperatures calmes et les endroits humides. Ils s'accrochent à un être vivant, et se nourissent de ses peurs. Attention, ils se multiplient vite et en avoir trop sur le dos peut rendre le joueur trop téméraire et provoquer sa mort contre un adversaire qu'il n'aurait pas attaqué (si + de 5 antrohses).
+
+Age moyen : 10-12 ans
+Taille : 0.9 m - 1.15 m

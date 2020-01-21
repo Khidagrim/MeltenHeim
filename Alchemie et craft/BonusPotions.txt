@@ -1,0 +1,32 @@
+Ingredients + potion = super potion (addition des effets)
+
+Champignon explosif :
+-Ajoute l'effet explosif au potions
+-Augmente la portée des bougies de +5m
+
+Sang de démon majeur : 
+-Ajoute l'effet Infinie aux potions
+
+Cresson : 
+-Ajoute l'effet renforcement 1
+
+Essence de chéne
+-Donne la bénédiction renaissance (1/6 de réussir)
+
+Gui
+-Ajoute l'effet bon humeur
+
+Huile
+-Ajoute l'effet brasier
+
+Jus de framboise orlane
+-Ajoute l'effet bon gout
+
+Orties du chaos
+-Ajoute l'effet chronométré
+
+Poivre noir
+-Ajoute l'effet propagation
+
+Salive de krooks
+-Ajoute l'effet énervement

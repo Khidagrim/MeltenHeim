@@ -1,0 +1,944 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <variable constant="0" name="TerresDeCendre" sid="4880845874951433" static="0" type="number">0</variable>
+        <variable constant="0" name="Nuit" sid="3540138877511712" static="0" type="number">0</variable>
+        <variable constant="0" name="Mer" sid="1231766402753378" static="0" type="number">0</variable>
+        <event-block sid="5739057054480207">
+            <conditions>
+                <condition id="0" name="On clicked" sid="298258521138633" type="TerresDeCendreB" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1786354873632505" type="System">
+                    <param id="0" name="Variable">TerresDeCendre</param>
+                    <param id="1" name="Value">random(18)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5902884250991517">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8577989695144761" type="MerB" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4701404599397485" type="System">
+                    <param id="0" name="Variable">Mer</param>
+                    <param id="1" name="Value">random(21)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9290033304527142">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9354611054868277" type="NuitB" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8659113953238648" type="System">
+                    <param id="0" name="Variable">Nuit</param>
+                    <param id="1" name="Value">random(20)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8142151472154887">
+            <conditions>
+                <condition id="0" name="On clicked" sid="4715862000547335" type="Button" />
+                <condition id="-8" name="Compare two values" sid="3378588046297521" type="System">
+                    <param id="0" name="First value">LayoutName</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">&quot;Layout 2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8197288307250582" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="6817884420181362" title="Mer">
+            <sub-events>
+                <event-block sid="9860953160304921">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6354176449077174" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1833462666718288" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="321356987248419" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Vide&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4097965308200347">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="934502091257637" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6560221663392009" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3454838108540296" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Vide&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8909711480515559">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3266084479494166" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9842767048221463" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8493920342648736" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Méfiant : troupeau de Glenn&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8187495700276864">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1759706716134452" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="208073305122855" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3570473781412766" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Neutre : Troupeau de Glenn&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1886496180590395">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7128605031405103" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6717846161616289" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3870551332605656" type="MerT">
+                            <param id="0" name="Text">&quot;Mer hostile: 1 Haël&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4100763198207118">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4211373421785383" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6806345824338178" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6181359377332817" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Hostile: Troupeau de Glenns&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8608296897728401">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1979136883394304" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3556641149403339" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7986535673142727" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Neutre: Coffre abandonné (vide)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="293607854407957">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5785737881553264" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7923294009378723" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7418962153198755" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Neutre: Coffre abandonné (10piéces+ 2herbes médecinale (+3vie))&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="274385314012684">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8683515213188605" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="523118602170778" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2146015546509376" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Hostile: Navire de Garde (entrer pays)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8431859906590249">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9127199208016357" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1673804547144736" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9443800672877391" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Amicale: Navire de Garde (entrer pays)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5095454935729095">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4136359587294615" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4358577289054389" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2866815771071789" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Amicale: Navire Marchand &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8011723121009072">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8397023001150711" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4723397249095661" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6670398124596486" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Méfiant: Navire Marchand &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2179166772231124">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8100582457020431" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3700299952994152" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="903086397139591" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Neutre: Ilots (Aux abord vide, cachette secréte: Potion de résurection )&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8328411596988928">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3801736383233816" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2836033188887548" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1094894852146037" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Amicale: Ilots (Camp de gardes + auberge)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="830680832623845">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6509569090861788" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2914057537550738" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2114496246982483" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Hostile: Ilots (Forteresse Gobeline) si victoire: arme/armure B +2 arme/armure C&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1172239350495481">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4856124582875086" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1142060672902897" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2694689965436017" type="MerT">
+                            <param id="0" name="Text">&quot;Mer hostile: 1 Haël&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1984353709487255">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8799668895070448" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2773649503992852" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="451777535563658" type="MerT">
+                            <param id="0" name="Text">&quot;Attention:Approche d&apos;une zone de chasse d&apos;un Ethel&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="439265452111491">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9216640530817063" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7518323315979098" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="4770119305378132" type="MerT">
+                            <param id="0" name="Text">&quot;Mer hostile: Tempete (-2vie)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4497933687048523">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2471558940851748" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">19</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7888818476401774" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9291813777500616" type="MerT">
+                            <param id="0" name="Text">&quot;Mer hostile: Tempete (-2vie)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4674178378097631">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3109840164509227" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">20</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="5929752288985316" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">19</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9411443327642387" type="MerT">
+                            <param id="0" name="Text">&quot;Mer hostile: 1 Haël&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4067506917932807">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="691511817039356" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">21</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3180001497414735" type="System">
+                            <param id="0" name="Variable">Mer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">20</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5966260682638138" type="MerT">
+                            <param id="0" name="Text">&quot;Mer Neutre: Gouffre Marin (event spé)= Royaume Naga (Piéce d&apos;armure A)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="6156452644935633" title="Nuit">
+            <sub-events>
+                <event-block sid="3374801021767903">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5320944201519727" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2102959036701345" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3209764076010067" type="NuitT">
+                            <param id="0" name="Text">&quot;Nuit Hostile: Groupe de squelettes&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6660403519303783">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7964482908991955" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1710181131527368" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9728654318550236" type="NuitT">
+                            <param id="0" name="Text">&quot;Nuit Hostile: Groupe de Zombies&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5702213681917848">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="589616461537013" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4316965024865828" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3993881487485676" type="NuitT">
+                            <param id="0" name="Text">&quot;Nuit Hostile: 1 Haël&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1168008539525398">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9417925748268153" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2212048911662748" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7929236485795171" type="NuitT">
+                            <param id="0" name="Text">&quot;Nuit Hostile: Groupe de GalaDraak&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5462984777019315">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9276494381499413" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3871603353740028" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2290485726098885" type="NuitT">
+                            <param id="0" name="Text">&quot;Nuit Hostile: 1 Liche (2 Armure C)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2960526401376415">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="600471101955887" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9152244476770285" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8015033837604997" type="NuitT">
+                            <param id="0" name="Text">&quot;Cabane abandonnée piégée a la porte (-2 vie)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9250447369216523">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="952388989934124" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">20</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="8678593703927856" type="System">
+                            <param id="0" name="Variable">Nuit</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="103626343324062" type="NuitT">
+                            <param id="0" name="Text">&quot;Cabane abandonnée 3herbes curatives/médecinales(+3vie)/1potion de vie (+5vie))&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="7733335361098763" title="Terres de cendre">
+            <sub-events>
+                <event-block sid="9860953160304921">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6354176449077174" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1833462666718288" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="321356987248419" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre: zone vide&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4097965308200347">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="934502091257637" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6560221663392009" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6614987593194337" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Attention: 1 Diable (Armure/arme A)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8909711480515559">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3266084479494166" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9842767048221463" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3221162673470834" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: Troupeau de Graaks&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8187495700276864">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1759706716134452" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="208073305122855" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2807157655469075" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: Troupeau de Graaks&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1886496180590395">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7128605031405103" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6717846161616289" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2448529982977011" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: Troupeau de Graaks&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4100763198207118">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4211373421785383" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6806345824338178" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1077846719198486" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: Poignée de Géhens&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8608296897728401">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1979136883394304" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3556641149403339" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="4409880320229335" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: Poignée de Géhens&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="293607854407957">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5785737881553264" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7923294009378723" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7295423852691281" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: 2liches (15 piéces+potion de soin (5 vie))&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="274385314012684">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8683515213188605" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="523118602170778" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6148246950177357" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: 1liches (15 piéces)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8431859906590249">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9127199208016357" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1673804547144736" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2968664946208545" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre: zone vide&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5095454935729095">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4136359587294615" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4358577289054389" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9129458655574393" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: Volcan (repére de Géhens)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8011723121009072">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8397023001150711" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4723397249095661" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1701542998228238" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terres de cendre hostile: Volcan (Pluie de météorite (-4vie))&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2179166772231124">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8100582457020431" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="3700299952994152" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="4372395484862954" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Cabane abandonnée vide&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8328411596988928">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3801736383233816" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2836033188887548" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8522398354855239" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Cabane abandonnée vide&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="830680832623845">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6509569090861788" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2914057537550738" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7380975572125807" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Cabane abandonnée piégée (porte-2vie)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1172239350495481">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4856124582875086" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1142060672902897" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5967752728299658" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terre de cendre hostile:Fosse piégée -3 vie +5 squelettes)&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1984353709487255">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8799668895070448" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2773649503992852" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="476420188078568" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;Terre de cendre Neutre: Donjon (entrer pays))&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="439265452111491">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="9216640530817063" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">18</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7518323315979098" type="System">
+                            <param id="0" name="Variable">TerresDeCendre</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">17</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="5747677331485942" type="TerreDeCendreT">
+                            <param id="0" name="Text">&quot;terre de cendre Neutre:Portail vers un autre monde&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

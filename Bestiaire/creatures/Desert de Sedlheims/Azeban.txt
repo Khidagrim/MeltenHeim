@@ -1,0 +1,20 @@
+Nom : Azeban
+Vie : 90/90
+Force : 35
+Dext : 10
+init : 20
+
+Armure_phy : 3
+Armure_mag : 2
+
+Capacités :
+Malus : 
+Malus froids : deg+10%
+Passifs:
+Tapent une seconde fois si dé20 < 5 (dégats réduits)
+
+Description :
+Creature aggressive du desert, se fondent dans les tempétes de sables pour prendre les proies par surprises.
+
+Age moyen : 20 ans
+Taille : 4m20

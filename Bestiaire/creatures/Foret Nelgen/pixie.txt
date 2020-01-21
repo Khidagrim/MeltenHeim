@@ -1,0 +1,21 @@
+Nom : Pixie
+Vie : 14/14
+Force : 0.5
+Dext : 40 
+init : 40
+magie : 20
+mana : 10/10 
+
+Armure_phy : 12
+Armure_mag : 5
+
+Capacités :
+Actifs
+-Attaque élémentaire (-x mana): contrôle les éléments terre ou eau
+-Léthargie (-3 sym,-2 mana): Provoque sommeil (1/4)
+
+Description :
+Les Pixies sont de petites fées. Celles-ci habitent dans les fôrets magiques et disposent de pouvoirs agissant sur le sommeil et les éléments naturels.
+
+Age moyen : ???
+Taille :80 cm

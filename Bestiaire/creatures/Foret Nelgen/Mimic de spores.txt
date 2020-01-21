@@ -1,0 +1,21 @@
+Nom : Mimic de spore
+Vie : 40/40
+Force : 15
+Dext : 15 
+init : 15
+
+Armure_phy : 12
+Armure_mag : 5
+
+Capacités :
+Passifs:
+-Insecte volant
+
+Actifs
+-Explosion toxique: Quand on s'approche du Mimic des Spores il lâche jusqu'à 5 m autour de lui un violent poison appliquant Poison 3.
+
+Description :
+Le Mimic des spores et une créature pernissieuse ressemblant trait pour trait à un vieux coffre en bois enlisé dans les branchages et les lianes.
+
+Age moyen : ???
+Taille :80 cm

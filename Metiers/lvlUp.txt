@@ -1,0 +1,12 @@
+Utiliser son métier = +x points.
+
+lvl1: 5
+lvl2: 12
+lvl3: 19
+lvl4: 26
+lvl5: 33
+lvl6: 40
+lvl7: 57
+lvl8: 71
+lvl9: 87
+lvl10: 105

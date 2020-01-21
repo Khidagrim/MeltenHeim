@@ -1,0 +1,18 @@
+Nom : Coureur freaf-grimpant
+Vie : 8/8
+Force : 4
+Dext : 20 
+init : 25
+
+Armure_phy : 0
+Armure_mag : 0
+
+Capacités :
+Passifs:
+-Vitesse+1
+
+Description :
+Petite créature semblable à une plante carnivore. Les coureurs se déplacent trés souvent en groupe pour chasser.
+
+Age moyen : 1 an
+Taille : 15 cm

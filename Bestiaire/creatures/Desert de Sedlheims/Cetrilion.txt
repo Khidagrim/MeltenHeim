@@ -1,0 +1,22 @@
+Nom : Cetrilion	
+Vie : 10/10
+Force : 2
+Dext : 30
+init : 30
+Symbiose : 5/5
+
+Armure_phy : 0
+Armure_mag : 0
+
+Capacités :
+Passifs:
+-vitesse + 1
+-AA : Inflige poison 3
+
+Description :
+Petites créatures du desert, souvent associé au scorpion, cettre créature est constament à la recherche d'eau.
+Apprivoisable
+Charognards
+
+Age moyen : 24 mois
+Taille : 15cm

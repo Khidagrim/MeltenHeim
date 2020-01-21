@@ -1,0 +1,23 @@
+Nom : Bushtaka
+Vie : 8/8
+Force : 0.5
+Dext : 45
+init : 30
+Symbiose : 2/2
+
+Armure_phy : 0
+Armure_mag : 0
+
+Capacités :
+Malus : 
+Malus feu : deg+35%
+
+Actifs:
+Resurgeance symbiotique: (-2 Symbiose du Bushtaka) : +5 dext ou +5 init ou +5 force au joueur
+Regeneration: +4pv/tours au joueur sur lequel le Bushtaka est planté
+
+Description :
+Les Bushtaka sont de petits animaux craintifs. En principe, ils se plantent sur un être vivant avec lequels ils entre en symbiose : se nourissant du dioxyde de carbone de ses poumons en échange d'un boost de stats.
+
+Age moyen : 100 ans
+Taille : 23cm

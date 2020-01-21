@@ -1,0 +1,3 @@
+Intervient lorsque : 
+-Le joueur fait trop de mauvais lancers : son prochain mauvais lancers en sera un bon
+-Le joueur fait trop de bon lancers : son prochain bon lancer en sera un mauvais

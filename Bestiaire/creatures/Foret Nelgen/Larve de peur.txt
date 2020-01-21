@@ -1,0 +1,17 @@
+Nom : Larve de peur
+Vie : 40/40
+Force : 12
+Dext : 10
+init : 40
+
+Armure_phy : 0
+Armure_mag : 4
+
+Capacités :
+passif : attaque 2x par tours
+
+Description :
+Description = Les larves de peur sont des créatures créées par Mittgenheim pour se défendre. Celle-ci se cachent sous le sol et attendent une proie, elle sort sous ses pieds et le dévore. Elle n’attaque pas fort mais vite, ce qui lui permet d'attaquer 2 fois par tours).
+ 
+Age moyen : 2 ans
+Taille : 1m de haut

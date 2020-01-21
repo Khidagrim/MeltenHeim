@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Aubrey';
+    src: url('./../fonts/Aubrey/Aubrey-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ceviche One';
+    src: url('./../fonts/Ceviche_One/CevicheOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Aubrey', sans-serif;
+  color: #FEFEE2;
+  text-shadow: 0 0 0.5vh black;
+}
+*:focus
+{
+  outline: none;
+}
+body
+{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#load
+{
+  position: absolute;
+  z-index: 50;
+  width: 0vw;
+  height: 0vh;
+  background: #4d004d;
+  top: 0%;
+  left: 0%;
+  animation: loadPage 1s 0.5s ease-in both;
+}
+#accueil
+{
+  -webkit-transform: skew(-25deg) translateX(-15%);
+  -moz-transform: skew(-25deg) translateX(-15%);
+  -o-transform: skew(-25deg) translateX(-15%);
+  transform: skew(-25deg) translateX(-15%);
+
+  position: absolute;
+  top: 3.5vh;
+  left: 0vw;
+  z-index: 45;
+  width: auto;
+  height: 7vh;
+  padding: 0 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: #4d004d99;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#accueil:hover
+{
+  background: #33003399;
+  transition: 0.5s;
+}
+#accueil:active
+{
+  background: #00000099;
+  transition: 0.05s;
+}
+  #accueil div
+  {
+  -webkit-transform: skew(25deg) translateX(10%);
+  -moz-transform: skew(25deg) translateX(10%);
+  -o-transform: skew(25deg) translateX(10%);
+  transform: skew(25deg) translateX(10%);
+
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 4vh;
+  text-shadow: 0 0 0.5vh black;
+  color: #FEFEE2;
+  }
+   

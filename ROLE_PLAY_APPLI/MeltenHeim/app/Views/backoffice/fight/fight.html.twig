@@ -1,0 +1,33 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}
+  Biome
+{% endblock %}
+
+{% block additional_css %}
+  <link rel="stylesheet" href="{{url('/assets/css/fight.css')}} ">
+{% endblock %}
+{% block h1 %}
+  Gestionnaire de Combats
+{% endblock %}
+
+{% block content %}
+  <div id="menu">
+    <button id='accueil' data-page="index"><div>Gestionnaire de Combat</div></button>
+  </div>
+  <div data-url="{{url('/')}}"></div>
+<section class="creatureSelect">
+  <select class="creatures" id="selectCrea">
+    {% for creature in creatures %}
+      <option value="{{creature.id}}">{{creature.Nom}}</option>
+    {% endfor %}
+  </select>
+  <input id="lvlInput" type="number" value="1">
+  <button id="getCrea" class="blue bootstrapButton">Create</button>
+</section>
+<section class="creatureArea">
+</section>
+{% endblock %}
+
+{% block additional_js %}
+  <script  src="{{url('/assets/js/fight.js')}}" type="text/javascript" charset="utf-8"></script>
+{% endblock %}

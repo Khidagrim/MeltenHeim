@@ -1,0 +1,16 @@
+Nom : Alpolg
+Vie : 45/45
+Force : 9
+Dext : 25
+init : 20
+
+Armure_phy : 3
+Armure_mag : 0
+
+Capacités :
+
+Description :
+Alpee Adulte. Ses bois sont utilisés pour faire de grands paniers ou de resistantes fléches.
+
+Age moyen : 10-12 ans
+Taille : 1.45 m - 1.65 m

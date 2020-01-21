@@ -1,0 +1,17 @@
+Narrative Fight Version
+Mission : Survivre
+
+Aspect de l'Acédie : 
+Passifs : 
+	-Proliferation des Alterations : A chauqe fin de tour, Chaque alteration d'état touchant les joueurs sont augmentés de 1
+	-Herault des Malheurs : Si un joueur n'as pas l'alteration fatigue, il reçoit alors fatigue 2. Cela fonctionne aussi pour faiblesse, torpeur, peste, cauchemar, nervosité
+	-Intangible : Les attaques physiques ne lui font qu'1 degat.
+	
+PV : 5(+5 * nb_joueur)
+Force : 0
+Dexterite : 0
+Initiative = initiative du joueur le plus faible + 5;
+Mana : 0
+Magie : 0
+Armure magique : 100
+Armure physique : 0

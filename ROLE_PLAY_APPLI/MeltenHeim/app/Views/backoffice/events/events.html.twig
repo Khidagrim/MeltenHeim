@@ -1,0 +1,51 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}
+  Biome
+{% endblock %}
+
+{% block additional_css %}
+<link rel="stylesheet" href="{{url('/assets/css/biome.css')}} ">
+  <link rel="stylesheet" href="{{url('/assets/css/events.css')}} ">
+{% endblock %}
+{% block h1 %}
+  Générateur d'Événements
+{% endblock %}
+
+{% block content %}
+<div data-url="{{url('/')}}"></div>
+<section>
+  <div id="menu">
+    <button id='accueil' data-page="index"><div>Générateur d'Événements</div></button>
+  </div>
+
+  <section class="biomes__handler">
+    {% for biome in biomes %}
+    <div class="biome__handler--item" style="background-image:url('{{url('/assets/images/biome/' ~ biome.image)}}')">
+      <button class="biome__handler--button"  data-color="{{biome.color}}">
+        <h6 class="biome__handler--title" data-biome="{{biome.id}}">{{biome.type}}</h6>
+      </button>
+    </div>
+    {% endfor %}
+  </section>
+  <article class="events__handler">
+    <h6 class="events__handler--title" data-item="Titre">Le titre de l'events</h6>
+    <div>
+      <div class="events__handler--texts" >
+        <p class="events__handler--description" >
+          <b>DESCRIPTION :: </b><p data-item="Description">description plus ou moins exaustive de l'evenement Lorem ipsum dolor amet....</p>
+        </p>  
+        <p class="events__handler--loot">
+          <b>LOOT :: </b><p data-item="loot">Le loot qui est peut être gagné.... dépends de plein de chose ou pas... le mj décidera de trancher</p>
+        </p>
+      </div>
+      <div class="events__handler--image" data-item="Image" style="background-image:url('{{url('/assets/images/events/')}}')">
+      </div>    
+    </div>
+  </article> 
+</section>
+
+{% endblock %}
+
+{% block additional_js %}
+  <script  src="{{url('/assets/js/events.js')}}" type="text/javascript" charset="utf-8"></script>
+{% endblock %}

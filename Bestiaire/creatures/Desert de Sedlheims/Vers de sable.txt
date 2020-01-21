@@ -1,0 +1,19 @@
+Nom : Vers de sable
+Vie : 120/120
+Force : 30
+Dext : 0 
+init : 20
+
+Armure_phy : 2
+
+Capacités :
+Passifs:
+-vitesse +2 (sous terre)
+-Aveugle (repére aux vibrations)
+
+Description :
+Les vers de sables sont la pire abominations des terres sedlheims, détruisent des caravanes, attaquent les villes et réaparaissent toujours. Leurs nids sont durs à trouver, ils creusent sous les montagnes pour y déposer leur oeufs.
+Le serum de leurs oeufs sont utilisés pour enlever les odeurs, idéal pour les infiltrations ou éviter de se faire sentir.
+
+Age moyen : 6 ans
+Taille : 65m de long

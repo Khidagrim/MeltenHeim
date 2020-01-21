@@ -1,0 +1,3 @@
+Grace de Force X : +4*x Force.
+Grace d'endurance X : +10*x PV
+Grace d'initiative X : +3*x Initiative

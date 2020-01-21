@@ -1,0 +1,21 @@
+Nom : Shaman Freaf-Grimpante
+Vie : 70/70
+Force : 10
+Dext : 15 
+init : 25
+Symbiose : 20/20 
+magie : 18
+
+Armure_phy : 4
+Armure_mag : 10
+
+Capacités :
+Passifs:
+-Neosynthése : les attaques du shaman soigne les freafs.
+-Multi-empalement : Sort 2+(+1dé4) racines du sol et transperce les joueurs (inflige magie + 5 dégats).
+
+Description :
+Les Shamans Freaf-grimpant sont des monstruosités qui ont gagnés en influence et en controle aprés la mort de mittgenheim. Ils maitrisent la magie et dirigent les autres freaf grimpants.
+
+Age moyen : ???
+Taille :2m

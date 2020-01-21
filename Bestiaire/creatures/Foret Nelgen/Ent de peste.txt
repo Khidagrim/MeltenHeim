@@ -1,0 +1,26 @@
+Nom : Ent de peste
+Vie : 95/95
+Force : 15
+Dext : 10
+init : 15
+symbiose : 10/10
+
+Armure_phy : 2
+Armure_mag : 4
+
+Capacités :
+Malus : 
+Malus feu : deg+20%
+Passifs:
+AA délétéres: 50% de chance de peste3
+Présence nocive : 2m autour -> peste 1
+Regen haute : +6pv/tours
+
+Actifs : 
+Alterosynthèse (-10 sym) : Prolifération de la peste (peste x -> peste x+1)
+
+Description :
+Les Ents de peste sont des créatures ayant été corrompues par mittgenheim. Ils servaient la carcasse et l'aspect de la peur y résidant. A la destruction de la carcasse, ils sont retournés dans la foret et se logent désormais dans un vieux temple abandonné.
+
+Age moyen : 250 ans
+Taille : 2m50

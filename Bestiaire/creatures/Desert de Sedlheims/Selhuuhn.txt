@@ -1,0 +1,16 @@
+Nom : Selhuuhn
+Vie : 150/150
+Force : 40
+Dext : 5 
+init : 10
+
+Armure_phy : 5
+Armure_mag : 0
+
+Capacités :
+
+Description :
+Les Selhuuhns sont des créatures pacifiques. Ils se baladent prés des oasis et mangent les feuilles des palmiers.
+
+Age moyen : 20 ans
+Taille : 25m ( à la tête )

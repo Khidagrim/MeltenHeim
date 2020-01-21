@@ -1,0 +1,122 @@
+body
+{
+	background: url('../images/background_role_dice.jpg') no-repeat;
+	background-size: cover; 
+}
+
+section
+{
+	-webkit-transform: skew(-25deg);
+    -moz-transform: skew(-25deg);
+    -o-transform: skew(-25deg);
+    transform: skew(-25deg);
+
+	width: 90%;
+	height: 100%;
+	background: #ffffff33;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section > div
+{
+	-webkit-transform: skew(25deg);
+    -moz-transform: skew(25deg);
+    -o-transform: skew(25deg);
+    transform: skew(25deg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#selection
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	width: 80%;
+	height: 22.5%;
+}
+	select
+	{
+		width: 40%;
+		height: 30%;
+		font-size: 5vh;
+      	background: #5a2e1f;
+      	border: solid #5a2e1f 2px;
+		border-radius: 5px;
+		box-shadow: 0 0 1.5vh black;
+	}
+	input[type='text']
+	{
+		width: 30%;
+		height: 30%;
+		font-size: 5vh;
+      	background: #5a2e1f;
+      	border: solid #5a2e1f 2px;
+		border-radius: 5px;
+		box-shadow: 0 0 1.5vh black;
+	}
+	#lauch
+	{
+		-webkit-transform: skew(-25deg);
+    	-moz-transform: skew(-25deg);
+    	-o-transform: skew(-25deg);
+    	transform: skew(-25deg);
+
+    	width: 15%;
+    	height: 25%;
+      	background: #5a2e1f;
+      	border: none;
+    	transition: 0.5s;
+    	box-shadow: 0 0 1.5vh black;
+	}
+		#lauch div
+		{
+			-webkit-transform: skew(25deg);
+    		-moz-transform: skew(25deg);
+    		-o-transform: skew(25deg);
+    		transform: skew(25deg);
+    		
+    		font-size: 4.5vh;
+		}
+		#lauch:hover
+		{
+			background: #391d14;
+			transition: 0.5s;
+		}
+		#lauch:active
+		{
+			background: #000000;
+			transition: 0.05s;
+		}
+#affichage
+{
+	-webkit-transform: skew(0deg);
+	-moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    transform: skew(0deg);
+
+	width: 85%;
+	height: 67.5%;
+	font-size: 10vh;
+	display: flex;
+	flex-flow: column wrap;
+    justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+
+.numbers
+{	
+	-webkit-transform: skew(25deg);
+    -moz-transform: skew(25deg);
+    -o-transform: skew(25deg);
+    transform: skew(25deg);
+
+	width: auto;
+	height: auto;
+}

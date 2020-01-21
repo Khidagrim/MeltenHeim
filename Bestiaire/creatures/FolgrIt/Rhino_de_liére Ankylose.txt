@@ -1,0 +1,23 @@
+Nom : Rhino_de_liére Ankylose
+Vie : 80/80
+Force : 18
+Dext : 5
+init : 10
+symbiose : 2/2
+
+Armure_phy : 6	
+Armure_mag : 0
+
+Capacités :
+Malus : 
+-Malus feu : deg+25%
+Passifs:
+-Regeneration : 5pv/tours
+Actifs:
+-Microlosyn : Les fleurs qu'il posséde sur ses cornes ont des propriétés paralysantes. Les respirer ou les toucher peut provoquer ankylose voir paralysie 2
+
+Description :
+Rhino mi-plante.
+
+Age moyen : 150-200 ans
+Taille : 2m

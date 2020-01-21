@@ -1,0 +1,86 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}
+  Creature
+{% endblock %}
+
+{% block additional_css %}
+  <link rel="stylesheet" href="{{url('/assets/css/creature.css')}} ">
+  <link rel="stylesheet" href="{{url('/assets/css/caracSheet.css')}} ">
+{% endblock %}
+{% block h1 %}
+  Biome
+{% endblock %}
+
+{% block content %}
+<div data-url="{{url('/')}}"></div>
+<section>
+  <div id="menu">
+    <button id='accueil' data-page="index"><div>Recueil des Créatures</div></button>
+  </div>
+  <section class="app">
+    <aside class="sidebar">
+    <header>Menu</header>
+      <nav class="sidebar-nav">
+        <ul>
+          {% for biome in creatures %}
+            <li>
+              <a href="#"><i class="ion-bag"></i> <span>{{biome.type}}</span></a>
+              <ul class="nav-flyout">
+                {% for creature in biome.creatures %}
+                  <li>
+                    <a href="#" class="change-sheet" data-creature="{{creature.id}}"><i class="ion-heart-broken"></i>{{creature.Nom}}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% endfor %}
+        </ul>
+      </nav>
+    </aside>
+  </section>
+</section>
+<section class="sheetContainer" style="background-image:url('{{url('/assets/images/bg_parchemin.jpg')}}')">
+  <h1>Creature Sheet</h1>
+  <section class="sheet">
+    <article class="sheet__leftSection">
+      <div class="sheet__topSection--character">
+        <ul class="stats__item">
+          <h6>Creature</h6>
+          <li class="character__item " data-item="Nom">Nom : </li>
+          <li class="character__item" data-item="Prenom">Prenom : </li>
+          <li class="character__item" data-item="Age">Age : </li>
+          <li class="character__item" data-item="Taille">Taille : </li>
+          <li class="character__item" data-item="Race">Race : </li>
+          <li class="character__item" data-item="Class">Class : </li>
+          <li class="character__item" data-item="Sexe">Sexe : </li>
+        </ul>
+        <ul class="stats__item">
+          <h6 >Stats : </h6>
+          <li data-item="Vie" >Vie : </li>
+          <li data-item="Force">Force : </li>
+          <li data-item="Dext">Dext : </li>
+          <li data-item="Init">Init : </li>
+          <li data-item="Symbiose">Symbiose : </li>
+          <li data-item="Rage">Rage : </li>
+          <li data-item="Mag">Mag : </li>
+          <li data-item="Mana">Mana : </li>
+          <li data-item="Armure_phy">Armure_phy : </li>
+          <li data-item="Armure_mag">Armure_mag : </li>
+        </ul>
+      </div>
+    </article>
+    <article class="sheet__rightSection" data-item="Image">
+      
+    </article>
+  </section>
+  <article>
+    <textarea data-item="Description" row="50" col="20" style="width: 1042px; height: 130px;background-color:rgb(51,51,51)"></textarea>
+  </article>
+</section>
+{% endblock %}
+{% block additional_js %}
+<script src="{{url('/assets/js/functions/functions.js')}}" type="text/javascript" charset="utf-8"></script>
+<script src="{{url('/assets/js/creature.js')}}" type="text/javascript" charset="utf-8"></script>
+{% endblock %}
+
+

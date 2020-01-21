@@ -1,0 +1,16 @@
+Nom : Alpee
+Vie : 60/60
+Force : 25
+Dext : 30
+init : 35
+
+Armure_phy : 2
+Armure_mag : 0
+
+Capacités :
+
+Description :
+Long loup un peu intangible. Esprit agressif souvant né des regrets de la mort d'un folg.
+
+Age moyen : ??? ans
+Taille : 1.15 m - 1.35 m

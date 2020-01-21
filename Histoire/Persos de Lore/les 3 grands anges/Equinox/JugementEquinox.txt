@@ -1,0 +1,156 @@
+Agir comme son personnage le ferait !
+-- -- -- -- -- -- -- -- -- -- --- -- -
+
+Loic(Amon) -> Pêcher de l'ENVIE
+- Mise en danger de ses alliés inutilement par profit personnel sans y avoir participé.
+
+->Jugement : 
+	-Situation : 
+		-Amon est délivré de sa cage par lucas et apperçoit ses affaires qui ne semblent pas être gardées (choix 1 : il va les chercher, choix 2 il ne va pas les chercher). Si choix 1 alors on recommence et il perd 25% de ses PV)
+		-SI reussite, il prend le portail avec lucas et se retrouve face a tout le groupe : Arnuarth le regarde et lui demande "on part chercher tes affaires, que fais tu?" (choix 1 : il va avec eux, choix 2 : il n'y va pas)? Si choix 2, alors il recommence avec -25% de ses PV.
+		
+		-Si reussite, il part avec eux et se téléporte dans une auberge de la ville des vendeurs d'esclaves. Là-bas, il sera tout seul, dans la chambre : la fenetre est ouverte, 3lits avec 3 assassins en train de dormir, ses affaires dans les bras de l'un des assassins, une grande armoire avec une lumiére dedans ,des bruits de pas en sa direction venant du couloir (20s) et il entends faiblement dehors une voix en détresse qui lui semble familiére. Il ne devra tuer personne, ne pas prendre ses affaires et se diriger vers la fenetre pour sortir et aller aider ses nouveaux compagnons. Dans le cas contraire, il recommence l'étape et perds 25% de ses pv.
+
+ 
+	-Pour sortir : -il tombe à 0pv et obtient un malus pour toujours en se faisant taper par equinox (le contenu du livre disparait)
+			-il fait correctement chaque étape et n'est pas attaqué par equinox.
+
+
+
+
+--------------------------------------------------------------------------------
+
+Alexis(Arnuarth) -> Pêcher de l'Avarice
+- Meurtre d'un innocent pour piller une tombe
+
+->Jugement : 
+	-Situation : 
+		-Arnuarth est seul dans un dédale. Ce dédale est l'ancienne tombe Dwaln. Il se balade dans le noir et n'y voit presque rien. Il entends des bruits sourds qu'il ne parvient pas à identifier. (2 tours)
+		-Il arrive devant une lumiére provenant du mur, il ne peut passer que sa main (pas de magie, pas d'arme). En passant sa main il touche un mécanisme qui fait sortir du sol une boite en pierre de 1m50 de long avec de beaux ornements en pierre. Si il s'en va il tombera avec la même salle encore et encore. Si il ouvre la tombe il voit une somme d'ossement informe et une magnifique piache, (hache + pioche) qui ferait palir le roi nain de par sa beauté. Choix : 
+			-Si il décide de ne pas la prendre il devra affronter le spectre d'ilran bô, en colére du fait que pour une misérable épée il lui a ôté la vie et pour une magnifique piache il ne la prends pas.
+Ilran sera intuable, il devra calmer son esprit et s'excuser, sinon il perdra de la vie petit à petit sous les coups d'ilran.
+			-Si il décide de la prendre, alors les os vont se rassemble, la chair va revenir sur le corps  et il va voir son pére, qui va lui dire : "Mon fils? Tu me fais ça ? à moi? ton pére... MIsérable ! Voleur! N'est tu pas capable de verser ta propre sueur pour créer plutot que de voler aux autres? t'ais je élevé de cette maniére? Tu mérites une punition !". Il se fera alors marteler par son pére, bien plus fort que lui. Avant de prendre un coup létal, il se reveillera sans son or dans le tribunal.Le tribunal sera vide et sa bourse aura des ailes et s'enfuira dehors. 
+																-Si il décide de la poursuivre, il devra lancer des dé6 pour se déplacer. Avant de la rattraper il se rendra compte qu'il marchait sur des cranes, ceux de ses amis tous morts. Il appercevra alors Equinox devant lui pour un jugement ultime.Le jugement sera un combat ou autour de lui il sera jugé par ses compagnons, sa famille et ses amis, chaqu'un le regardant de haut avec de la haine et de la pitié .A l'issue de ce jugement il se verra confisquer l'anneau des rêves car il n'en est pas digne et devra s'excuser , a tous et pour tout. si il ne le fait pas, il sera expulser du havre, il perdra forcément l'anneau des reves mais aussi sa bource, l'épée dwaln et son passe de la guilde des marchands. Il aura son talent d'artisanat mais personne ne se souviendra qu'il travaillait à la guilde des artisants.
+
+																-Sinon : petit à petit le tribunal tremblera, puis tremblera trés fort faisant mine de s'écrouler.Si il sort il verra toujours la bourse devant lui le nargant. Si il rerentre ou qu'il est resté dedans, alors son pére apparaitra avec ilran.Il devra lui demander pardon sincérement.Sinon il se reveillera et prendra des coups de Equinox dans le tribunal jusqu'à la mort ou jusqu'à ce qu'il s'excuse.(Il perdra quand même l'épée dwaln et 50% de son argent).
+ 
+	-Pour sortir : -il tombe à 0 et obtient un malus pour toujours en se faisant taper par equinox (- 50% argents)
+			-il fait correctement les étapes et n'est pas attaqué par equinox.
+
+
+
+--------------------------------------------------------------------------------
+
+Alexandre (Krahl) -> pecher de la paresse.
+-Son manque de maitrise de la magie a mainte fois mis en danger ses alliés. Il est jugé pour ça.
+
+->Jugement : 
+	-Situation : 
+		-Krahl se trouve sur le champ de bataille. Des milliers de morts jonchent le sol. Il reconnait les arbres de la foret Nelgen. Il regarde le sol et remarque petit a petit ses alliés morts. Pour chaque allié il aura un flashback et se souviendra que c'est lui qui as tué cet allié en lançant un sort et en se trompant (avec un petit spoil du boss). Une fois chaque personne faite, il sera téléporté dans un cimetiére avec 5 tombes (celle de ses alliés). Equinox apparaitra et discutera avec lui de son rapport a la magie en lui disant qu'il fait de la merde: Si il est conscilliant il aura droit de changer de classe (proposition d'equinox), si il accepte, il change; si il refuse, equinox lui explique que le jugement tombera sur lui si il ne s'applique pas. Si il n'est pas du tout conscilliant, alors Equinox le regardera, lui foutra un punch qui lui fera traverser tout le havre et le fera retourner a mallamaille (il perdra 5mana max et 10hp).
+
+
+----------------------------------------------------------------------------------
+
+Maxime (krakta) : ->Aucun pêché.
+
+Se retrouve dans le noir total en face de lui et sur la droite et la gauche se trouvent 3 portes : derriére lui une derniére avec 2 trous.Chaque porte posséde un signe sur elle.
+-Peut retrouver la parole si il reussi deux épreuves parmi 3 proposées par equinox.
+		- La charité
+		- La Tempérence
+		- La Force d'âme
+
+
+1)La charité : Il faut se montrer charitable dans cette épreuve pour montrer que l'on est capable de fare le bien pour les autres. Dans ce chapitre là krakta va se trouven dans une ville Orlane . Il va trouver une vieille femme  qui va se faire renvoyer d'une laverie car elle est trop faible. Elle va voir krakta passer et va lui demander l'aumone. Si il n'a pas d'argent il devra lui venir en aide car elle n'a plus rien. Si il refuse : Echec + flashback 'se trouve dans une maison et des soldats arrivent' Fin flashback.
+
+2)La tempérence
+Il se retrouve au palais de tel-Ajij devant le sultan. Celui-ci lui demande "Bonjour a toi Krakta, j'ai eu vent de tes faits d'armes, je t'offre l'honneur de faire parti de ma garde personelle, qu'en penses tu?"
+	Choix 1 : il accepte ("Bien, trées bien!" dis le roi, tu sais rester à ta place, dorénavant tu feras parti de la garde du palais, maintenant pars, ton tuteur t'attends dehors". Le tuteur tentera de le tuer, il ne devra pas tuer le tuteur, il verra comme dans l'aréne sur un mur le symbole de la porte.
+	Choix 2 : il refuse (Le roi s'emporte et lui disant: "Oserais tu offencer ton roi!? La mort t'attent pauvre fou !" Il se retrouve transporté dans l'aréne : ses adversaires beaucoup trop nombreux (10 guerriers armés autour de lui) vont le charger, il remarquera sur le sol (si reussite de jet de perception, le signe de la porte), il ne devra pas bouger et garder son calme.
+	Choix 3 : il combat (fin : echec de la tempérence)
+
+
+3) La force d'âme
+Cette porte se déverouille si et seulement si il a loupé l'une des deux épreuves.
+Si il a loupé la charité, alors la petite vieille se materialisera devant lui et le combattera (combat assez dur)
+
+Si il a loupé la tempérence : Il se trouvera face à Equinox et aura 10 minutes pour résoudre son énigme, si il parvient, alors la porte avec les deux sigles s'ouvrira et il se reveillera avec sa langue.
+
+
+-Il peut retrouver la parole suite au jugement d'equinox.
+-Ou souhaite seulement bonne chance dans sa croisade
+
+-----------------------------------------------------------------------------------
+
+Lucas (Feyn) -> Pecher de L'envie.
+-La vente d'enfants + gout pour le loot
+
+-> jugement : 
+	- Lucas va se retrouver dans une petite salle noire avec peu de lumiére.Il est debout devant une table de marbre et devant lui se trouve aussi un homme-lézard habillé en homme marchant. Il montre devant lui 10 "verres"/récipients. Derriére lucas se trouve une serrure dans le mur de pierre sombre et au dessus une horloge de pierre et il remarque que le marchant porte un collier avec une clée accrochée au bout. Le marchant lui dit : "Se trouve ici 10 récipents avec un liquide différent dedans.Tu as 10 minutes pour sortir, sinon je sortirais mon arme et te tuerais". Aprés cela, le marchand ne bouge plus du tout (comme si il était gelé).
+
+R1 : Un calice en or (affiliée à la richesse) : Quand il le boit, des trous dans les murs apparaissent et des flots de dragons tombent sur les 4 côtés. En même temps, le support de la salle devient instable et celle-ci peut basculer (commence a basculer si lucas prends les piéces).
+
+R2 : Un verre en bois de qualité assez long(affiliée à l'oisiveté) : Quand il le prends, une partie des murs de la salle deviennent des barreaux. Si il s'approche des bras d'enfants vont s'aggriper à lui et vont tenter de lui faire du mal. Aprés cela, il entendra des pleurs et les enfants lui demanderont de les relacher et de pas leur faire du mal.
+
+R3 : Une choppe en pierre (affiliée au plaisir) : Si il le boit, sa main reste collée et il va se mettre a le boire infiniement (il doit prendre un autre récipient pour arreter de boire) : malus : tete qui tourne (jet de perception altérés)
+
+R4 : Un sablier vide ouvert en haut (fait gagner du temps (+2mins) : quand il le boit, il ne boit rien mais le sablier se remplit de sable et stoppe l'horloge de pierre pendant 2mins (plus de tic tac)
+
+R5 : Un verre en os : perds 40% de ses pv
+
+R6 : Une jarre en cire: il va fondre (5mins avant la mort)
+
+R7 : Une tasse en porcelaine : Annule les effets de tous les autres recipients
+
+R8 : un récipient en métal : Quand il l'attrape le marchand le regarde et lui fout une tarte (-25% de ses pv)
+
+Les deux autres sont cachés sous la table : Ils sont identique : Ce sont 2 calices en argent : Quand il les prends il entendant les enfants derriére lui dire (si ils sont sortis) "Truem" -- "Truem" ! et sur l'un des calices il y a écrit "truem"
+Si il vole la clée du marchand, et qu'il ouvre la porte, une lumiére brulante sort et lui enléve 50% de ses pv.
+
+	-Pour sortir : -il tombe à 0 et obtient un malus pour toujours en se faisant taper par equinox (Visions)
+			-il fait correctement les étapes et n'est pas attaqué par equinox.
+
+
+-----------------------------------------------------------------------------------
+
+Erle (Trundle) : -> Pecher de la colére
+- Son inpulsivité ne plait pas à Equinox.
+
+-> Jugement : 
+	-Se trouve dans le sompteux palais de son enfance à Fallenen (grand chateau de pierre et de glace).
+
+	Il va admirer les magnifiques sculptures, réalisation artisanales faiisant du chateau de fallenen l'une des plus grandes merveille du monde. Néanmoins, personne ne sera là. Il visitera le chateau jusqu'à arriver à la salle du trone. Il va voir son "clone" assis dessus (mais pas son frére). Son double va lui parler : "Eh bien, enfin, tu en as mis du temps","C'est vrai que c'est beau hein? Magnifique je dirais.... Ces belles armatures...C'est dommage hein? A peu de chose prés TOUT cela aurais pu t'appartenir! Quel manque d'ambition, quelle manque de finesse aussi venant d'un membre de la famille royale! Tu n'as rien appris de nous? Tu préférais une vieille poutre aux armes des tatooans de notre rang? Ton impulsivité nous fait honte. Qu'à tu as me dire?"
+
+Peu importe ce qu'il répond, il va se faire expulser dans une petite prison de glace (peu robuste). Peu de temps aprés, son double va passer et lui dire... Là tu seras trés bien, loin des regards!
+
+Si il ne céde pas à ses impulsions alors son double revient une derniére fois et tente de l'enerver: Bah alors mon grand? tu es faible! Incapable de briser ces chaines! tu sais quoi? C'est cette faiblesse qui as t** *il se tait* et part en disant "'oups' en aurais-je trop dit?" : Si trundle ne le suit pas alors il sort du rêve avec succés.
+
+
+Sinon il devra se battre contre lui même mais ne perdra presque pas de vie, c'est le chateau qui va se casser petit a petit : si le chateau est complétement détruit : il est expulsé du rêve et se fera punir par equinox sinon, si il se calme avant et ne se laisse plus enerver par le double, alors il aura reussi à passer le jugement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Nom : Golem de sable
+Vie : 50/50
+Force : 20
+Dext : 20 
+init : 15
+magie : 15
+mana : 10/10
+
+Armure_phy : 2
+Armure_mag : 2
+
+Capacités :
+Passifs:
+-Resistance aux altérations
+-Non-stunnable
+
+Actifs
+-Enlisement (-2mana) : Activer enlisement pendant un coup réduira les mouvements et les réussites d'attaques du joueur. (+1 au dé20)
+-Laser (-5 mana) : Inflige magie dégats + brulure 1
+
+Description :
+Les Golems de sable sont des constructions Sedlheim, souvent utilisé comme moyen de protection de sites.
+
+Age moyen : ??? ans
+Taille : 1m80

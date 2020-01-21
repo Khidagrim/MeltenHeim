@@ -1,0 +1,26 @@
+Nom : Ent
+Vie : 105/105
+Force : 20
+Dext : 8
+init : 15
+symbiose : 15/15
+
+Armure_phy : 4
+Armure_mag : 2
+
+Capacités :
+Malus : 
+Malus feu : deg+25%
+Malus glace : deg+10%
+Passifs:
+AA stun : 50% de chance
+AA de zone : 2m autour
+Regen haute : +10pv/tours
+Actifs : 
+biosynthèse (-10 sym) : créer un Tréant
+
+Description :
+Les Ents sont de grandes créatures à l'apparence d'arbre, éveillés par les restes des magies Folg dont ils sont les défenseurs. 
+
+Age moyen : 250-350 ans
+Taille : 5m

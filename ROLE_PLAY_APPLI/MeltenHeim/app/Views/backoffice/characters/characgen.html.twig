@@ -1,0 +1,42 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}
+  Characters Generator
+{% endblock %}
+
+{% block additional_css %}
+  <link rel="stylesheet" href="{{url('/assets/css/fight.css')}} ">
+  <link rel="stylesheet" href="{{url('/assets/css/characgen.css')}} ">
+{% endblock %}
+{% block h1 %}
+  Characters Generator
+{% endblock %}
+
+{% block content %}
+<section>
+    <div id="menu">
+        <button id='accueil' data-page="index"><div>Characters Generator</div></button>
+    </div>
+    <div data-url="{{url('/')}}"></div>
+    <section class="creatureSelect">
+        <select class="creatures" id="selectRace">
+        <option>Race</option>
+            {% for race in races %}
+                <option value="{{race.id}}">{{race.Nom}}</option>
+            {% endfor %}
+        </select>
+        <select class="creatures" id="selectClasse">
+            <option>Classes</option>
+                {% for classe in classes %}
+                    <option value="{{classe.id}}">{{classe.Nom}}</option>
+                {% endfor %}
+            </select>
+        <input id="lvlInput" type="number" value="1">
+        <button id="getCrea" class="blue bootstrapButton">Create</button>
+    </section>
+</section>
+<section class="creatureArea"></section>
+{% endblock %}
+
+{% block additional_js %}
+  <script  src="{{url('/assets/js/characgen.js.')}}" type="text/javascript" charset="utf-8"></script>
+{% endblock %}

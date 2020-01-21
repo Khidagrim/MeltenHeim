@@ -1,0 +1,13 @@
+Les douze arcanes décrits dans le grimoire sont :
+- l'alchimie permettant de concocter potions, onguents, etc.
+- la conjuration servant à invoquer animaux et monstres
+- la divination destinée à dévoiler ce qui est caché ou à prédire l'avenir
+- le druidisme qui affecte les animaux, les plantes et la nature en général
+- la magie élémentaire axée sur les quatre éléments principaux : l'air, la terre, le feu, l'eau et certains éléments mineurs comme la glace
+- l'enchantement autorisant la fabrication et l'utilisation des objets enchantés
+- la nécromancie permettant les manipulations des forces de la vie, de la mort, de la non vie et de tous les autres phénomènes associés
+- l¿occultisme couvrant la magie de l'esprit, de la pensée, des illusions et de la tromperie
+- la thaumaturgie orientée vers la transformation, l'altération et la redirection des énergies et de la matière
+- la sorcellerie combinant divers aspects secondaires des autres arcanes tels l¿alchimie ou la conjuration, elle permet de sélectionner comme faisant partie de cet arcane des sorts issus des autres arcanes
+- la magie qui regroupe tous les sorts ne faisant pas partie des autres arcanes, et en particulier les sorts en rapport avec la nature même de la magie comme le sort de Détection de la Magie
+- la magie divine qui n'est pas un arcane à proprement parler mais qui regroupe tous les sorts attribués par les dieux à leurs prêtres

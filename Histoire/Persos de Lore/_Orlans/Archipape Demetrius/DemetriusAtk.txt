@@ -1,0 +1,34 @@
+Demetrius joue 2 fois par tour et reçoit un shield de 5 PV a chaqu un de ses tours
+
+
+T1:choix:
+-atk de base: "Crainiez la colére du juste !" description: envois 2 boule d energie a deux cible, puis draine la vie de ses adversaires; degats: 3 a tous(inesquivable) + 5 a une cible + 3 a une autre cible
+-judgement : " Par le feu soyez purifié ! " description: flamethrower; degats:7 + brn (-2PV/tours pdt 3 tours)
+-super riposte: "Vos misérables attaques ne m'atteindrons jamais" description:se concentre, la prochaine attaque est esquivée et le mage se teleporte derriére une cible et frappe; degats:-5pv(+33% stun)(reussite critique pour esquiver)
+-controle:"l'air me provient de tout puissant lui même" repousse violement les ennemis proche; degats: -4pv
+
+
+
+T2:choix:
+-1er : invoque l'ange de platine : "vient a moi ! créature supréme de la création"
+-atk de base:lance d'elis : " j en appelle a la lance d' Ereimul et d'Eronos, pourfend le vent et ne t arrete jamais !" invoque une lance d'air et de lumiére, touche sur une ligne; degats:-9pv
+-Repercussion: "Recevez votre chatiment !": description:une puissante lumiére frappe les joueurs et leurs inflige -6PV + le DOT redemption (1/6 de passer un tour a s excuser devant dieu (1/4 pour les orlans)(le DOT ne s annule pas ))(l esquive ne se fait pas a la dexterité mais dés 20 et faire moins de (10-dés 4)).
+-Cataclysme :"Abandonnez vous au desespoire (si le boss est deja bien amoché)L'ange de platine devient l ange d'ébéne, invoque une lance de tenebre, se teleporte derriére 2 cibles et frappe (esquive standarde); degats: -8PV;
+
+
+
+
+
+-Ange de platine : 
+-soin (+15PV)
+-Atk, lance une sphére de lumiére, degats:-4PV;
+-buff:permet a volsunga d avoir un boost de +2 degats au prochain coup
+
+
+
+-Ange d'ébéne : 
+-Drain (-3PV)(inesquivable)
+-Atk, lance une sphére obscure, degats:-6PV;
+-debuff:vise 2 cibles et leurs envois fatigue ( lance 1 dés 6 , si 1 ou 2 pas touché sinon chaque tour lancent 2 dés 6: 1er (si 1 ou 2 sort annulé) , 2eme (si 1,2,3 ou 4) pour effectuer l'action)
+
+

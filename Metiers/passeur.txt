@@ -1,0 +1,11 @@
+Passeur
+
+lvl1-> Faire passer les morts/Âmes en peine de la terre au paradis ou de la terre aux enfers. Pour chaque âme enmenée au paradis : +0.25hp  ; pour chaque ame enmenée en enfer : -0.5 hp max, +0.5 magie   ;  Evidemment : il faut la jouer rp et donc juger les ames en fonctions de leurs actes (rappel : tu entends les voix des morts)
+
+lvl 2 -> faire passer une ame regen 4hp ou 3 mana
+
+lvl3 -> faire passer une ame augmentent les dégats de ectoblast de 1 point (permanent)
+
+lvl4-> faire passer une ame peut faire perdre 4hp et faire gagner 8 points d xp
+
+lvl5-> Les ames peuvent donner des récompences en fonction de la justesse du jugement (carte au trésor (trés rarement), stats (rarement), exp (parfois))

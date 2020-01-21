@@ -1,0 +1,159 @@
+{% extends "backoffice/template.html.twig" %}
+{% block title %}BackOffice | les Videos{% endblock %}
+{% block specific_css %}
+  <link href="{{url('/assets/css/style.css')}}" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block content %}
+
+<h1 class="text-light">Ajouter une Video</h1>
+<p class="text-light">Indiquer les données de cette Video.</p>
+<form action="{{ url( '/backoffice/video/save' )}}" method="post" enctype="multipart/form-data">
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Titre : </label>
+    <div class="col-sm-4">
+      <input name="titre" type="text" class="form-control">
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Choisir une image : </label>
+    <div class="custom-file mb-3 col-sm-4">
+      <input type="file" name="image" class="custom-file-input ">
+      <label for="image" class="custom-file-label removeText"></label>
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Nom de la Video ( + .mp4, .avi, ect..): </label>
+    <div class="col-sm-4">
+      <input name="lienVideo" type="text" class="form-control">
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Resumé de la video :</label>
+    <div class="col-sm-4">
+      <textarea name="resume" type="text" class="form-control"></textarea>
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Utilisation générale :</label>
+    <div class="col-sm-4">
+      <textarea name="usesGen" type="text" class="form-control"></textarea>
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Lien Word : </label>
+    <div class="col-sm-4">
+      <input name="lienWord" type="text" class="form-control">
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Lien Internet : </label>
+    <div class="col-sm-4">
+      <input name="lienInternet" type="text" class="form-control">
+    </div>
+  </div>
+
+  <div class="form-group row text-light" >
+    <hr>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Tags : </label>
+    <div class=" d-flex col-sm-9">
+      <p id="up" class="btn btn-secondary">+</p>
+      <p class="btn btn-secondary down">-</p>
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Liens Words Supplémentaires : </label>
+    <div class=" d-flex col-sm-9">
+      <p id="upWord" class="btn btn-secondary">+</p>
+      <p class="btn btn-secondary down">-</p>
+    </div>
+  </div>
+
+  <div class="form-group row text-light">
+    <label class="col-sm-3 col-form-label">Utilisations supplémentaires : </label>
+    <div class=" d-flex col-sm-9">
+      <p id="upUses" class="btn btn-secondary" style="max-height:38px">+</p>
+      <p class="btn btn-secondary down" style="max-height:38px">-</p>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="offset-3">
+      <button class="btn btn-secondary">Enregistrer la nouvelle vidéo</button>
+      <a href="{{ url( '/backoffice/video' )}}" class="btn btn-link">annuler</a>
+    </div>
+  </div>
+
+
+</form>
+{% endblock %}
+
+{% block specific_js %}
+<script>
+
+$(document).ready(function(){
+  var numbers = 0;
+
+  $("#up").click(function(){
+
+    addaSelect();
+
+  });
+
+  $("#upWord").click(function(){
+
+    addaInput();
+
+  });
+
+  $("#upUses").click(function(){
+
+    addaTextArea();
+
+  });
+
+  $(".down").click(function(){
+    $(this).siblings('.selectRemove:last-of-type').remove();
+  });
+
+
+  function addaSelect()
+  {
+    var text = '<select name="tag'+numbers+'" id="'+numbers+'" class="form-control selectRemove" style="max-width:125px">{% for tag in tags %}<option value="{{tag.id}}">{{tag.nom}}</option>{% endfor %}</select>';
+    $("#up").before(text);
+    numbers++;
+  }
+
+  function addaInput()
+  {
+    var text = '<input name="LienOtherWord'+numbers+'" id="Word'+numbers+'" class="form-control selectRemove" style="max-width:125px">';
+    $("#upWord").before(text);
+    numbers++;
+  }
+
+  function addaTextArea()
+  {
+    var text = '<textarea name="otherUses'+numbers+'" cols="20" rows="3" id="Textarea'+numbers+'" class="form-control selectRemove col-4" ></textarea>';
+    $("#upUses").before(text);
+    numbers++;
+  }
+
+  $("input[type=file]").change(function() {
+    filename = this.files[0].name
+    $("label[for=image]").text(filename);
+  });
+
+});
+
+  </script>
+{% endblock %}

@@ -1,0 +1,25 @@
+Nom : Kal-Atrol-It
+Vie : 52/52
+Force : 4
+Dext : 20
+init : 20
+symbiose : 5/5
+rage : 2/2
+
+Armure_phy : 0
+Armure_mag : 0
+
+Capacités :
+Malus : 
+Malus feu : deg+15%
+Passifs:
+-Liaison Druidique: Un coup léthal devant être infligé à un Kal-Atrol-It est à la place absorbé par un autre proche de lui.
+Actifs : 
+-Microsynthèse (-2 sym) : 1/3 de proc, Cible un ennemi et lui lance des graines. Si les graines s'accrochent à la peau -> le Kal-Atrol-It peut controler le joueur pendant son tour grace à "Controle de guerre"
+-Controle de guerre (-1rage) : Controle le joueur et le force à faire une action simple.
+
+Description :
+Le Kal-Atrol-It est une mi-orlane, mi-folg. Il se regroupe sous la forme de petit clan pacifique dnas les forets folg. Leurs rites permet aux cristaux de folgs morts de repousser et de former un nouveau folg. En contrepartie, les folgs leurs ont offert une longue longévité.
+
+Age moyen : 120 ans
+Taille : 1m60

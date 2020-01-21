@@ -1,0 +1,21 @@
+Nom : Animut
+Vie : 80/80
+Force : 20
+Dext : 10
+init : 20
+
+Armure_phy : 3
+Armure_mag : 2
+
+Capacités :
+Malus : 
+Malus froids : deg+10%
+Passifs:
+-vitesse + 3
+-vitesse + 2 si porte des obj lourds
+
+Description :
+Gros transporteur rapide du desert.
+
+Age moyen : 14 ans
+Taille : 3m10

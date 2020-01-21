@@ -1,0 +1,18 @@
+Nom : Rhandori
+Vie : 100/100
+Force : 25
+Dext : 15 
+init : 15
+
+Armure_phy : 4
+Armure_mag : 0
+
+Capacités :
+Passifs:
+créature robuste : moins sensible au controle
+
+Description :
+Créature utilisé pour le transport. Apprécié pour leur corps robuste les Rhandori ne sont pas toujours aimé à cause de leur caractére de bourrique.
+
+Age moyen : 12 ans
+Taille : 3m à la tête

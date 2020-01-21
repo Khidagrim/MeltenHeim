@@ -1,0 +1,9 @@
+Apothicaire/Alchemiste/herboriste : 
+
+lvl1-> tu sais fabriquer des potions de vie et de mana (vie : regen 16 + 4*res dé4) et potions de mana (regen 4+ dé4), fabriquer n'importe quelle potion te fait gagner 2pt d'xp de niveau.
+
+lvl 2 -> tu sais fabriquer des potions de regen de vie(Regen4) et des potions curatives(guérit les altération de 3 crans ou 4 crans)
+
+lvl3 -> tu sais fabriquer des poisons et reconnaitre quelques plantes
+
+lvl4 -> tu gagnes +3mag +3mana +2sym

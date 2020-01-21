@@ -1,0 +1,27 @@
+bricoleur : Lvl1 : Ramasser des materiaux de construction octroit de l'exp : pieces metalliques->+2xp,composants minerals->+4xp,biomasse-> +1xp,sources animales -> +2xp
+Lvl 2 : Combiner w+x+y+z élements permet de débloquer des nouveaux trucs (j vais faire un arbre vite fait de plusieurs branches (tu pourras suggerer des 'trucs' en plus mais pas comment les fabriquer dans l'arbre)
+lvl 3 : tu peux ameliorer des equipement pour les rendres plus performant (possibilité d'y ajouter des 'gadgets inutiles' ou des 'imprevus' a discuter avec le mj)
+lvl4 : réduit le cout en ressource d'un 'truc' que tu veux craft (pas de beaucoup)
+
+
+
+
+Arbre : 
+
+	Pieces metalliques : Reparer outils/autre
+
+	Composants minerals : 
+
+	Biomasse : camouflage odorant
+
+	Sources animales : Renforcement cuir
+
+
+	3 Pieces metalliques +  4 Composants minerals : Ampoule de puissance (ajoute du mana/symbiose/rage au receptable)
+
+	1 Composant mineral + 1 biomasse : Terreau
+	
+	3 Biomasse + 4 sources animales + 2 Composants minerals : Bombe odorante
+
+	1Composants minerals + 1sources animales : 1carreaux
+

@@ -1,0 +1,4 @@
+Intervient lorsque : 
+-Le joueur effectue des actions injustes, influençant négativement le karma (pour le juger), il lui envoit alors une plume blanche et celui-ci se téléportera à la prochaine mauvaise action au Havre.
+
+-Le joueur effectue de bonnes actions, Celui-ci recevra le passif, bénédiction d'Equinox pendant 3 jours ce qui améliorera ses relations sociales

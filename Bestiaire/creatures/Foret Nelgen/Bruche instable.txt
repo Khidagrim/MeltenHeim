@@ -1,0 +1,22 @@
+Nom : Bruche Instable
+Vie : 20/20
+Force : 1
+Dext : 20 
+init : 15
+
+Armure_phy : 0
+Armure_mag : 0
+
+Capacités :
+Passifs:
+-Insecte volant
+
+Actifs
+-Explosion acide : (-100% pv), La bruche explose, infligeant Acide 3
+
+Description :
+Insecte ressemblant à un coléoptére volant. Celle-ci traine au niveau de son abdomen un sac d'acide trés puissant. La bruche participe au recyclage des cadavres d'etres vivants, elle les asperge d'acide et se nourrit du résultat.
+Correctement récolté, l'acide de la bruche à faible dose peut servir de combustible.
+
+Age moyen : 2 mois
+Taille : 50 cm

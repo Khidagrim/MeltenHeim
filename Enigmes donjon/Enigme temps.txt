@@ -1,0 +1,5 @@
+Faire une enigme avec une horloge sur le sol
+elle n'as pas d'aiguille
+le joueurs doivent placer des torches ou des sources lumineuses au bon endroit et se placer au centre de l'horloge.
+Les position des lumiéres feront les aiguilles
+Cela permet d'ouvrir une porte ou un connerie du genre.

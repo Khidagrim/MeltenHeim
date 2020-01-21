@@ -1,0 +1,19 @@
+Nom : Raie des vents
+Vie : 90/90
+Force : 25
+Dext : 20 
+init : 15
+
+Armure_phy : 2
+Armure_mag : 2
+
+Capacités :
+Passifs:
+-vitesse + 4
+-Piqure paralysante
+
+Description :
+Les raies des vents sont à la base sauvage. Il s'avére qu'un grand dompteur Sedlheims soit parvenu à les dressers. Depuis, on les croises aussi bien dans les déserts que dans les villes pour transporter hommes et marchandises.
+
+Age moyen : 20 ans
+Taille : 10m de long (aile à aile).

@@ -1,0 +1,1 @@
+-Coeur de Gardien des sources : artefact transformant un membre de son possesseur en bras-plante-biologique pouvant s'allonger, appliquer poison2 aux entités qu'il touche et rendant invulnérable au poison son possesseur. Il peut etre retiré en enlevant l'artefact(pierre rose) du bras de son possesseur (ceux-ci peuvent être détruit lors de l'extraction).

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Heimurinn án nafn</title>
+  <link rel="stylesheet" href="../css/animation.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/dice.css">
+</head>
+<body>
+  <div id="load"></div>
+  <button id='accueil' data-page="index"><div>Lanceur de dés</div></button>
+  <section>
+    <div id="selection">
+      <select>
+        <option value="null" selected>Type du dés</option>
+        <option value="2">Dé 2 faces</option>
+        <option value="3">Dé 3 faces</option>
+        <option value="4">Dé 4 faces</option>
+        <option value="6">Dé 6 faces</option>
+        <option value="8">Dé 8 faces</option>
+        <option value="10">Dé 10 faces</option>
+        <option value="12">Dé 12 faces</option>
+        <option value="20">Dé 20 faces</option>
+        <option value="100">Dé 100 faces</option>
+      </select>
+      <input type="text" placeholder="Nombre de dés">
+      <button id="lauch"><div>Lancer</div></button>
+    </div>
+    <div id='affichage'></div>
+  </section>
+</body>
+  <script src='../javascript/change_page.js' type="text/javascript" charset="utf-8"></script>
+  <script src='../javascript/dice.js' type="text/javascript" charset="utf-8"></script>
+</html>

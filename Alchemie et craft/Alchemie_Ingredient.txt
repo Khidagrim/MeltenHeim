@@ -1,0 +1,779 @@
+INGREDIENTS :
+
+Aile de chauve-souris 
+Description : 
+-Vendue généralement séchée, elle se conserve bien. L'espèce de la chauve-souris n'est pas importante, mais c'est une bestiole très difficile à capturer : il vaut mieux s'adresser à un spécialiste. 
+Encombrement : 
+-environ 50 grammes 
+Possibilités de récolte : 
+-magasin pour mage, chez un éleveur de chauve-souris, dans une grotte ou une grange
+
+
+Alcool blanc 
+Description : 
+-Un alcool distillé à partir de produits de base, qui est utilisé par certains fabricants de produits spiritueux, ou qui entre parfois dans les préparations culinaires. 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-cuisine, magasin d'alimentation, épicerie, magasin pour mage
+
+
+Arcanoa
+Description :
+-Plante d'origine Seilen connu pour ses propriété magiques puissante.
+Encombrement :
+-négligeable
+Possibilité de récolte :
+-Magasin Seilen, foret Seilen
+
+
+Bile de renard 
+Description : 
+-Liquide extrait de la vésicule d'un renard. Pour le faire soi-même, il faut que le cadavre soit frais. La bile ne se conserve pas plus d'une semaine, en fiole. 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, sur un renard fraîchement décédé
+
+
+Boule de cire 
+Description : 
+-La même cire qu'on utilise pour sceller le courrier, mais vendue sous forme de petites boules. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, des oreilles trés sales
+
+
+Bougie à la graisse d'ours 
+Description : 
+-C'est un modèle de bougie spécialement fabriqué pour les pratiques magiques. Impossible à faire soi-même. 
+Encombrement : 
+-100 grammes par bougie 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Bougie noire au suint de bouc
+Description : 
+-C'est un modèle de bougie spécialement fabriqué pour les pratiques magiques. Impossible à faire soi-même. Elle dégage un parfum atroce mais bon, on n'y peut rien. 
+Encombrement : 
+-100 grammes par bougie 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Bougie standard 
+Description :
+-Une bougie classique, qui peut avoir n'importe quelle forme et n'importe quel parfum ! Encombrement : 
+-selon modèle 
+Possibilités de récolte : 
+-magasin pour mage, bazar, épicerie
+
+
+Bougie verte 
+Description : 
+-C'est un modèle de bougie spécialement fabriqué pour les pratiques magiques. Impossible à faire soi-même. 
+Encombrement : 
+-100 grammes par bougie 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Coeur d'Hael
+Description : 
+-Le coeur d'une créature s'appellant Hael.
+Encombrement :
+-2 fois plus gros qu'un coeur humain
+Possibilité de récolte :
+-Sur un Hael (a vos risques et périls), dans un magasin pour mage
+
+Cendres d'un oiseau carbonisé 
+Description : 
+-Il n'est pas difficile de procéder soi-même à la récolte, mais ça demande un peu de temps... Et il est impératif que l'oiseau soit frais (et d'abord, il faut l'attraper). C'est souvent l'activité préférée des mages de bas niveau. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, en milieu nature
+
+
+Cendres d'un érudit 
+Description : 
+-Pour obtenir ces cendres, il faut avoir carbonisé un érudit jusqu'à ce qu'il n'en reste plus rien. Ordinairement récupéré lors des cérémonies funéraires (note : le concept d'érudit et un peu flou). 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, funérarium
+
+
+Cendres d'un mage 
+Description : 
+-Pour obtenir ces cendres, il faut avoir carbonisé un mage jusqu'à ce qu'il n'en reste plus rien. Il est possible de s'en procurer après une cérémonie funéraire, mais les duels entre mages ont souvent participé à ce commerce. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, funérarium, chez un mage puissant
+
+
+Champignon explosif (cf bonus potions)
+Description : 
+-Une variété spéciale de champignon, qui ne pousse que dans certaines grottes sous les forêts de feuillus. Ils sont explosifs uniquement au moment de la cueillette, ce qui explique leur prix... Il faut être un expert pour survivre à la récolte d'un panier. Ils sont séchés et se conservent bien. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+magasin pour mage
+
+
+Chèvre morte 
+Description : 
+-Un ingrédient généralement réservé aux nécromanciens. Nul ne sait pourquoi cet ingrédient est magique, en tout cas on utilise plusieurs organes de l'animal. Le cadavre doit être frais (conservation variable de 2 à 7 jours, selon la saison). C'est très encombrant et assez malodorant 
+Encombrement : 
+-lourd et encombrant, 40 kilos (nécessite une brouette) 
+Possibilités de récolte : 
+-chez un éleveur de chèvres, dans un champ avec un peu de chance
+
+
+Cheveu de vierge 
+Description : 
+-Il n'est pas difficile de trouver des cheveux de vierge, dans la mesure où n'importe quel enfant devrait faire l'affaire. Cependant, les cheveux de vierge à usage magique doivent être récoltés sur une personne majeure et consentante, lorsque la lune est pleine et rouge, en hiver, et ils doivent être certifiés par un comité. Pas facile. Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Cimelweiss 
+Description : 
+-Variété très particulière de fleur poussant sur les cimes des montagnes du Nord les plus froides, vendue séchée et très fragile. Il est déconseillé d'essayer de les cueillir soi-même, à moins de disposer de bons vêtements chauds et d'une carte correcte. 
+Encombrement : 
+-nécessite une boîte de protection en bois (200 grammes) 
+Possibilités de récolte : 
+-magasin pour mage, sommet de montagne froide
+
+
+Corbeau mort 
+Description : 
+-L'animal doit être décédé mais non décomposé. En fonction de la saison, sa durée de conservation peut varier de 2 jours à une semaine. 
+Encombrement : 
+-un quart de sac à dos standard, pour environ 600 grammes 
+Possibilités de récolte : 
+-magasin pour mage, magasin d'alimentation, cuisine
+
+
+Crapaud séché 
+Decription : 
+-N'importe quelle espèce de crapaud, l'animal ayant été mis à sécher dans un environnement aéré et protégé des mouches. Il doit avoir séché plus de 10 jours. C'est un peu fragile, mais pas trop. 
+Encombrement : 
+-Tient dans le creux de la main – nécessite d'être protégé – très léger 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Cresson (frais) (cf bonus potions)
+Description :
+-Un simple bouquet de cresson, qui constitue une dose du produit pour un usage magique. Encombrement : 
+-L'équivalent d'une bonne poignée de végétaux, pour environ 100 grammes 
+Possibilités de récolte : 
+-Au marché, chez un paysan, dans un fossé en milieu tempéré, magasin pour mage
+
+
+Dent d'ours 
+Description :
+-Une simple dent arrachée à un ours standard, mort ou vivant. C'est moins dangereux s'il est mort. 
+Encombrement : 
+-quelques dents peuvent remplir une bourse 
+Possibilités de récolte : 
+-sur un squelette d'ours (environ 10 dents utilisables par ours), magasin pour mage
+
+
+Dent de loup 
+Description : Une simple dent arrachée à un loup standard, mort ou vivant. C'est plus pratique s'il est mort. 
+Encombrement : 
+-quelques dents peuvent remplir une bourse 
+Possibilités de récolte : 
+-sur un squelette de loup (environ 10 dents utilisables par loup), magasin pour mage
+
+
+Dent de rat 
+Description : 
+-Une simple dent arrachée à un rat standard, mort ou vivant. C'est plus sympa s'il est mort.
+Encombrement : 
+-Aucun, ça tient dans une bourse 
+Possibilités de récolte : 
+-Sur un squelette de rat (environ 10 dents utilisables par rat), magasin pour mage
+
+
+Dent de requin 
+Description : 
+-Vous n'avez quasiment aucune chance de trouver vous-même cet ingrédient, à moins d'avoir des amis pêcheurs sur la côte. La plupart des gens vivant en bord de mer en possèdent, à titre de souvenir, et n'en ont pas l'usage. 
+Encombrement : 
+-quelques dents peuvent remplir une bourse 
+Possibilités de récolte : 
+-magasin pour mage, bazar, village côtier, communauté de pirate
+
+
+Écorce de chéne
+Description : 
+-Une partie très spéciale de l'écorce de l'arbre est récupérée et traitée pour ses propriétés magiques. Vous ne pouvez donc pas le faire vous-même. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, village elfique
+
+
+Essence de chéne (cf bonus potion)
+Description : 
+-Un produit fabriqué essentiellement par les Folg, à base du précieux et tés ancien chéne. 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, communauté de Folg
+
+
+Essence de Srinl
+Description : 
+-Un produit fabriqué essentiellement par les Frinls à base d'algues appelées Srinls. Il sert à faire aussi des baumes.
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, communauté de Frinls
+
+
+Feuille d'arbre millénaire
+Description : 
+-Connues pour leurs propriétés régénérantes liées à la santé du cheveu, ces feuilles ne tombent pas d'elles-même et il faut aller les chercher dans le tiers le plus haut de l'arbre. Seules certaines feuilles sont utilisables donc. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, village folg, en haut d'un arbre millénaire
+
+
+Fruit de l'arbre Dangau
+Description : 
+-Il s'agit des fruit d'un arbre poussant un peu partout aux lisiéres de forets
+Encombrement :
+-De la taille d'une pomme/poire
+Possibilité de récolte:
+-Agriculteur, marchés
+
+
+Graisse de poil de castor 
+Description : 
+-Il existe une technique spéciale pour extraire la graisse des poils de castor, et vous ne la connaissez sans doute pas. Du coup, il ne vous reste plus qu'à vous rendre chez un marchand... 
+Encombrement : 
+-petit pot en terre de 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, bazar
+
+
+Griffe d'Azeban (Cf confection talisman)
+Description : 
+-Le trogylork est une variété magique d'orque vivant dans les profondeurs et l'obscurité. On peut donc leur arracher leurs griffes, mais à condition de les avoir occis avant. On ne les trouve pas facilement. 
+Encombrement : 
+-quelques griffes peuvent remplir une bourse 
+Possibilités de récolte : 
+-magasin pour mage, sur un trogylork (10 griffes par cadavre)
+
+
+Gui (cf bonus potion)
+Description : 
+-Parasite des arbres fréquemment utilisé par les chamanes, mais qu'on retrouve aussi dans la magie traditionnelle. Il est à utiliser dans les quelques jours suivant la récolte. On peut le récolter soi-même en grimpant à un arbre, armé d'un simple canif. 
+Encombrement : 
+-l'équivalent d'une bonne poignée de végétaux, pour environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, en forêt de feuillus
+
+
+Herbe grise du marais 
+Description : 
+-Une herbe particulière, qu'on utilise fraîche aussi bien que séchée. Elle pousse autour des flaques dans les Marécages. 
+Encombrement : 
+-100 grammes par poignée 
+Possibilités de récolte : 
+-magasin pour mage, marécage
+
+
+Herbe de Nilla 
+Description : 
+-Une herbe qui pousse uniquement dans certains sous-bois. Pour la reconnaître il faut être doué. Elle peut être utilisée fraîche ou séchée. 
+Encombrement : 
+-100 grammes par poignée 
+Possibilités de récolte : 
+-magasin pour mage, sous-bois
+
+
+Branche d'alpolg (cf craft)
+Description : 
+-Un produit ramassé sur un alpolg mort 
+Encombrement : 
+fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, communauté de folg, sur un alpolg
+
+
+Huile standard (cf bonus potion)
+Description : 
+-Une huile quelconque, de tournesol de préférence, qui peut aussi servir à faire frire. On peut en acheter un peu partout, mais il n'est pas possible de la produire soi-même. 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, épicerie, cuisine, magasin d'alimentation
+
+
+Jus de framboises Orlane (cf bonus potion)
+Description : 
+-Un jus spécial, pressé par les Sylvains à partir des fruits des les meilleurs framboisiers de la forêt. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, villages elfiques de Schlipak
+
+
+Morceau de bois 
+Description :
+-à usage magique Ces morceaux de bois sont spécialement traités pour les pratiques magiques. Impossible de le faire soi-même. 
+Encombrement : 
+-100 grammes par morceau 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Mousse des cavernes électriques 
+Description : 
+-C'est une variété de mousse bleue, vendue séchée, qui pousse uniquement dans une région particulière : des grottes naturelles des forets nelgens. Pour les récolter, il suffit de gratter la pierre... Mais hélas, il faut pouvoir encaisser les décharges électriques fréquentes générées aléatoirement par une curiosité géologique. C'est donc une activité réservée aux spécialistes. 
+Encombrement : 
+-sachet de cuir de 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, village de Birtek
+
+
+Œil de crapaud 
+Description : 
+-Il s'agit d'un œil frais, et dont la période de conservation est donc très courte (quelques jours). Vendu en fiole. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, prélevé sur un crapaud
+
+
+Œuf de poule 
+Description :
+-Rien de plus bête qu'un œuf. Il doit être daté de moins de 15 jours. Mais attention, c'est fragile... 
+Encombrement : 
+-Tient dans le creux de la main – nécessite d'être protégé 
+Possibilités de récolte :
+-Au marché, chez un paysan, marchand d'alimentation
+
+
+Œuf de dragon des arbres 
+Description : 
+-Rien de plus bête qu'un œuf, mais celui-ci est assez gros. Pour le trouver, il faut également grimper à un arbre et survivre au combat contre les parents. 
+Encombrement : 
+-300 grammes, assez solide 
+Possibilités de récolte : 
+-magasin pour mage, nid de dragon des arbres
+
+
+Œufs de grenouille
+Description : 
+-Des œufs minuscules et gluants, fraîchement récoltés dans les marécages ou les mares d'eau peu profondes. 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-près d'une mare en été, magasin pour mag
+
+
+Œuf de griffon 
+Description : 
+-Pour trouver cet œuf, il faut d'abord trouver le griffon... Et celui-ci ne se laissera pas facilement voler sa progéniture, et encore faut-il arriver quand c'est la saison. Bon courage ! Cherchez plutôt en magasin. 
+Encombrement : 
+-400 grammes, solide 
+Possibilités de récolte : 
+-magasin pour mage, nid de griffon
+
+
+Ongle d'itejuhn ou d'iteshelm
+Description : 
+-Les itejuhn ou les iteshelm sont maintenant rares, car les Kaldrinns leur ont longtemps fait la chasse et sont maintenant protégé par les sedlheims. C'est pour cette simple raison qu'il est difficile de prélever leurs gros ongles robustes. 
+Encombrement : 
+-200 grammes par ongle 
+Possibilités de récolte : 
+-magasin pour mage, rencontre inopinée avec un rhinocéros fâché
+
+
+Onguent de plante de brasier
+Description : 
+-Une préparation spéciale, fabriquée par une entreprise familiale qui garde jalousement son secret depuis des siècles. Traditionnellement, on en retrouve dans beaucoup de recettes de Magie du Feu. 
+Encombrement : 
+-petit pot en terre de 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, bazar
+
+
+Orties du chaos (cf bonus potion)
+Description : 
+-Cette variété d'ortie pousse exclusivement dans la partie sud du voisinage du château de Gzor. Elles peuvent être utilisées fraîches aussi bien que séchées. 
+Encombrement : 
+-l'équivalent d'une bonne poignée de végétaux, pour environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage, sud du château de Gzor
+
+
+Oreille de gnôme des forêts du nord 
+Description : 
+-Inutile de dire qu'aucun gnôme n'accepte de vendre ses oreilles. Il faut donc les récupérer sur un individu mort, et ça ne court pas les rues. Elles sont vendues séchées. Cet ingrédient est à la base d'une activité de braconnage assez sordide, et la plupart des gens préfèrent ne pas en parler. 
+Encombrement : 
+-quelques oreilles peuvent remplir une bourse 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Parchemin 
+Description : 
+-Généralement utilisés pour inscrire des formules. Il doit être certifié par un spécialiste. Encombrement : 
+-léger mais fragile, nécessite un emballage 
+Possibilités de récolte : 
+-magasin pour mage, librairie
+
+
+Patte de triton 
+Description : 
+-La patte coupée d'un triton standard, vivant ou mort depuis peu. Conservation : quelques jours au maximum. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-sur un rat triton récemment (voisinage d'une mare), magasin pour mage
+
+
+Plante médicinale
+Description : 
+-Petite plante au feuilles légérements rougeatre
+Encombrement :
+-Négligeable
+Possibilité de recolte : 
+-Dans toutes les forets, proches des riviéres
+
+
+Plante de la vie
+Description : 
+-Petite plante au longues feuilles bordées de rouge + tige orangée
+Encombrement :
+-Négligeable
+Possibilité de recolte : 
+-Dans toutes les forets, proches des riviéres
+
+
+Plume d'aigle des Montagnes 
+Description : 
+-Le grand aigle des montagnes est un oiseau difficile à approcher. Seules les plumes de ses ailes sont utilisées pour les pratiques magiques, mais en général on ne peut lui en voler de son vivant car cela nuirait à sa mobilité. C'est donc une affaire des spécialiste, et c'est pourquoi ces plumes sont hors de prix. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte :
+-magasin pour mage, chez un chasseur d'aigles
+
+
+Plume de coq noir 
+Description : 
+-Les plumes des ailes sont utilisées uniquement. On peut en avoir jusqu'à 30 sur un seul coq ! Mais le coq doit être intégralement noir, d'où la relative rareté du produit. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, chez un paysan avec de la chance
+
+
+Plume de pahols 
+Description : 
+-Plume prélevée sur un grand oiseau nommé pahol (cf bestiaire)
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, forêt de Schlipak
+
+
+Poil de barbe de Nain rousse
+Description : 
+-Les Nains roux ne sont pas partout et vivent en communautés restreintes dans une certaine ville de leur royaume, perdus dans les montagnes. Ils acceptent de vendre leurs poils de barbe, aux vertus étonnantes, en échange de certains services. Mais comme ces poils ne repoussent pas, ils se paient. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Poil de tatooans 
+Description : 
+-Plus grand que les nains, les tatooans vivent dans les terrains du nords. Ils vivent en marge de la carte dans des territoires inhospitaliers, et vivent en se nourrissant de végétaux extraordinaires. Parfois, un explorateur parvient à en rencontrer un, et il récupère quelques poils de son pelage aux propriétés étranges. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Poivre noir (cf bonus potions)
+Description : 
+-Du poivre absolument classique, mais noir. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, magasin d'alimentation, cuisine
+
+
+Poudre d'argent
+Description : 
+-Vendue traditionnellement dans un minuscule sachet de cuir. Il est possible de la fabriquer soi-même à partir de pièces d'argent et d'une bonne lime (mais c'est un peu long). Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, pièces d'argent limées
+
+
+Poudre de bérylium 
+Description : 
+-Il s'agit d'un minerai énergétique provenant des mines du Nord. Seuls les Nains arrivent à en faire de la poudre. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+magasin pour mage, communauté de Nains
+
+
+
+/////// PAs encore fait
+Queue de laprock,Oulée, salive de krooks (renforce aggresivité)
+
+
+
+
+Poudre de diamant 
+Description : 
+-Nul ne sait comment les Nains arrivent à faire de la poudre à partir de diamants. Mais ils le font. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, communauté de Nains
+
+
+Poudre de malachite 
+Description : 
+-Il s'agit d'un minerai difficile à trouver. Généralement, seuls les Nains arrivent à en faire de la poudre. 
+Encombrement : 
+-quelques dents peuvent remplir une bourse 
+Possibilités de récolte : 
+-magasin pour mage, communauté de Nains
+
+
+Poudre de mithril 
+Description : 
+-Il s'agit d'un métal dur provenant des mines du Nord. Seuls les Nains arrivent à en faire de la poudre. Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, communauté de Nain
+
+
+Poudre noire des gobelins 
+Description : 
+-Personne ne sait vraiment comment cette poudre est faite. Vous pouvez l'obtenir auprès de certaines communautés de peaux-vertes, mais vous y perdrez sans doute votre chemise. Encombrement : 
+-négligeable, en minuscule sachet de cuir 
+Possibilités de récolte : 
+-magasin pour mage, chez les gobelins
+
+
+Poudre d'écorce de Boulorne 
+Description : 
+Ingrédient généralement fourni par des Sylvains généreux. Il n'empêche que les humains en font un commerce. On peut bien sûr limer soi-même l'écorce (sèche) d'un Boulorne pour en tirer de la poudre. Les Boulornes se trouvent uniquement : dans la partie Est de Schlipak, dans la forêt de Groinsale, dans le Bois N'talamela et dans la forêt d'Ouien. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, directement sur une écorce séchée
+
+
+Poudre de granite 
+Description : 
+-Ingrédient fameux utilisé pour fabriquer les bonbons Chiantos ! En dehors de ça, il s'agit d'une poudre conditionnée en petit sachet de cuir. Il est possible de la fabriquer soi-même à partir de granite et d'une bonne lime. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, granite limé
+
+
+Poudre de griffe de Morshleg 
+Description : 
+-Ces animaux sont nombreux dans les terres sauvages de Kwzprtt. On en trouve jusque dans les collines d'Altrouille et ils sont généralement trop fainéants pour traverser le fleuve Elibed. On extrait la poudre de leurs griffes, et elle est conditionnée en minuscule sachets de cuir. Il est possible de le faire soi-même à condition de récupérer la griffe en question ! Un seul animal fournit plusieurs centaines de doses, mais il faut du temps pour raper les griffes (et une bonne lime). 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, terres sauvages de Kwzprtt
+
+
+Poudre de molaire de Dantragor 
+-Ces animaux sont un peu rares, mais on en trouve dans la partie centrale du pays, dans les terres sauvages de Kwzprtt, le marécage et le sud de Schlipak. On extrait la poudre de leurs molaires, et elle est conditionnée en minuscule sachets de cuir. Il est possible de le faire soi-même à condition de récupérer la molaire ! Un seul animal fournit plusieurs centaines de doses, mais il faut du temps pour raper les dents (et une bonne lime) car les dents sont extrêmement dures. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, sur un animal décédé
+
+
+Poudre d'or 
+Description : 
+-Vendue traditionnellement dans un minuscule sachet de cuir. Il est possible de la fabriquer soi-même à partir de pièces d'or ou d'objets en or, et d'une bonne lime (mais c'est un peu long). 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, pièces d'or limées
+
+
+Poudre de trithil 
+Description : 
+-Il s'agit d'un métal dur provenant des exploitations des Nains. Seuls les Nains arrivent à en faire de la poudre. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, communauté de Nains
+
+
+Queue de rat 
+Description : 
+-La queue coupée d'un rat standard, vivant ou mort depuis peu.
+Encombrement : 
+-Négligeable 
+Possibilités de récolte : 
+-Sur un rat décédé récemment, magasin pour mage
+
+
+Queue de rat zombi 
+Description : 
+-La queue coupée d'un rat zombi, donc forcément mort et magiquement conservé. Assez rare puisqu'en général les rats zombis se trouvent uniquement dans le voisinage des nécromanciens. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-sur un rat zombi, magasin pour mage
+
+
+Racine de vie
+Description :
+-Petite racine de plante médecinale, ça sert aussi à se soigner
+Encombrement
+-négligeable
+Possibilité de recolte:
+-sur les plantes médecinales, magasin générale
+
+
+Salive de krooks (cf Bonus potions)
+Description : 
+-Salive provenant directement de la gueule d'un Krooks, il est conseillé de la récupérer à même la glande tant que le krooks est en vie : l'air altére rapidement la propriété de la salive.
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes
+Possibilité de récolte
+-Sur un krooks (vivant ou mort depuis peu), dans un magasin pour mage
+
+
+Sang de corbeau 
+Description :
+-Une denrée très périssable, à utiliser dans les quelques heures après récupération. Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-sur un corbeau blessé ou récemment décédé, magasin pour mage
+
+
+Sang de démon majeur (cf Bonus potions)
+Description : 
+-Un des plus puissants ingrédients qui soit. Pour l'obtenir, il faut une généralement disposer d'une armée. 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mag
+
+
+Sang d'érudit 
+Description : 
+-Contrairement au sang de vierge, le sang d'érudit à usage magique est quelconque, et peut être prélevé sur n'importe quel érudit sans trop altérer sa santé. Il faut néanmoins trouver un arrangement, souvent pécunier. Sa durée de conservation est cependant très courte : moins de deux heures dans une fiole propre. C'est pourquoi on n'en trouve pas dans le commerce, mais seulement à la commande. 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-rencontre avec un érudit, en milieu urbain
+
+
+Sang de porc 
+Description : 
+-Une denrée très périssable, à utiliser dans les quelques heures après récupération. Encombrement : 
+-Fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-Magasin pour mage, boucherie, chez un paysan
+
+
+Sang de vierge 
+Description : 
+-Il n'est pas difficile de trouver du sang de vierge, dans la mesure où on peut en prélever sur n'importe quelle personne assez jeune. Cependant, le sang de vierge à usage magique doit être récolté sur une personne majeure et consentante, lorsque les étoiles sont alignées avec la constellation du morshleg, au printemps, et ils doit être certifié par un comité formé de vieux types barbus. 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Sarments de vigne séchés
+Description :
+-On trouve ces sarments au pied des vignes, mais généralement ça fait loin, alors on finit par les acheter. 
+Encombrement : 
+-100 grammes par poignée 
+Possibilités de récolte : 
+-magasin pour mage, au milieu des vignes (partie sud du pays)
+
+
+Savon de Fquiepou 
+Description : 
+-Savon spécial, fabriqué par une entreprise familiale qui garde jalousement son secret depuis des siècles. 
+Encombrement : 
+-100 grammes par savon 
+Possibilités de récolte : 
+-magasin pour mage, épicerie, bazar
+
+
+Sel 
+Description : 
+-Du sel traditionnel, de cuisine, qu'on peut conserver de n'importe quelle façon. Ne supporte pas l'immersion ! 
+Encombrement : 
+-Négligeable 
+Possibilités de récolte : 
+-magasin pour mage, magasin d'alimentation, cuisine
+
+
+Serpent mort de peur 
+Description : 
+-Parfois, très rarement, un serpent surpris dans son élément naturel meurt d'une crise cardiaque. Cet événement donne lieu à la création de cet étrange ingrédient magique. Le serpent est conservé dans un bocal d'alcool blanc. 
+Encombrement : 
+-2 kilos avec le bocal 
+Possibilités de récolte : 
+-magasin pour mage, milieu naturel (bonne chance !)
+
+
+Sphère d'or 
+Description : 
+-C'est une simple sphère d'or pur, mais il faut disposer d'un certain matériel pour la créer (sans compter la matière première). Généralement vendue par les Nains, mais on en trouve un peu partout. 
+Encombrement : 
+-négligeable, mais elle pèse 200 grammes tout de même 
+Possibilités de récolte : 
+-magasin pour mage, communauté de Nains
+
+
+Spores de Myconides 
+Description : 
+-Les myconides sont des hommes-champignons vivant dans certaines cavernes. Leurs spores ont de nombreuses vertus hallucinogènes, et ils les troquent souvent contre des denrées diverses, mais ils sont timides et il n'est pas facile de trouver leurs villages. Les spores sont conditionnées en minuscules sachets de cuir. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage, village Myconide
+
+
+Soufre en poudre 
+Description : 
+-Ressource naturelle extraite habituellement par des spécialistes. 
+Encombrement : 
+-négligeable 
+Possibilités de récolte : 
+-magasin pour mage
+
+
+Urine de bouc 
+Description : 
+-Il est préférable d'acheter ce produit plutôt que de le récolter soi-même... 
+Encombrement : 
+-fiole de 10 cl., environ 100 grammes 
+Possibilités de récolte : 
+-soi-même chez un éleveur de chèvres, magasin pour mage
+
